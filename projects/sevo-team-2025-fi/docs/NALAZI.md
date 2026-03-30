@@ -21,3 +21,10 @@
 ### 30.03.2026 - Implementacija filtera aktivnih artikala
 - Kreirana tabela `tmp_aktivni_2025` sa 241 šifrom
 - Svi dalji upiti na `robno` koriste ovu tabelu kao filter
+
+## Sesija 30.03.2026
+
+- [Session Log](logs/SESSION_LOG_2026-03-30.md)
+- [Resume](RESUME.md)
+- [Struktura Robno Artikli](STRUKTURA_ROBNO_ARTIKLI.md)
+- SQL upiti: [sql/](../sql/)
