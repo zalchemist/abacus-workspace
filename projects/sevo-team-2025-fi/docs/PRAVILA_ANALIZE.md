@@ -30,3 +30,8 @@ WHERE sifra IN (SELECT sifra FROM tmp_aktivni_2025)
 
 ---
 *Poslednje ažuriranje: 30.03.2026*
+
+#### Status implementacije:
+✅ Tabela `tmp_aktivni_2025` KREIRANA (30.03.2026)
+- 241 aktivna šifra artikla
+- Baza: opp7102025

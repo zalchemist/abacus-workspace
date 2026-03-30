@@ -17,3 +17,7 @@
 
 ---
 *Živi dokument - dopunjavati tokom rada*
+
+### 30.03.2026 - Implementacija filtera aktivnih artikala
+- Kreirana tabela `tmp_aktivni_2025` sa 241 šifrom
+- Svi dalji upiti na `robno` koriste ovu tabelu kao filter
