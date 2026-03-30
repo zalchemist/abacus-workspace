@@ -1,3 +1,13 @@
+> ⚠️ **OBAVEZNO PRVO PROČITAJ CEO OVAJ FAJL**
+> 
+> Pre nego što postaviš bilo kakvo pitanje ili započneš rad:
+> 1. Pročitaj kompletan sadržaj ovog dokumenta
+> 2. Zapamti strukturu repozitorijuma i gde se šta nalazi
+> 3. NE postavljaj pitanja o lokaciji fajlova, strukturi foldera ili povezanim repozitorijumima - sve je dokumentovano ispod
+> 4. Tek nakon čitanja, nastavi sa korisnikovim zadatkom
+
+---
+
 # Agent instrukcije — abacus-workspace
 
 ## Jezik komunikacije
