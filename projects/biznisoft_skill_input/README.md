@@ -11,8 +11,6 @@ Ovaj repozitorijum sadrži sve potrebne fajlove — knowledge bazu, skripte, too
 ```
 biznisoft_skill_input/
 ├── README.md                          # Ovaj fajl
-├── meta_skill_creator/
-│   └── skills_meta-skill-creator.zip  # Meta-skill creator za generisanje SKILL.md
 ├── mariadb_toolkit/
 │   └── mariadb_toolkit_v2.zip         # MariaDB toolkit (quick_setup.sh + performance config)
 ├── knowledge/                         # Dokumentacija i referentni materijali
@@ -45,17 +43,15 @@ biznisoft_skill_input/
 
 ### ZADATAK
 
-Koristi meta-skill-creator da kreiraš agent skill za autonomnu analizu BizniSoft ERP baza podataka.
+Kreiraj agent skill za autonomnu analizu BizniSoft ERP baza podataka.
 
 ### FAJLOVI KOJE DOBIJAŠ
 
-1. **`skills_meta-skill-creator.zip`** — Pročitaj i primeni za kreiranje skill-a
-
-2. **`mariadb_toolkit_v2.zip`** — Toolkit za MariaDB, sadrži:
+1. **`mariadb_toolkit_v2.zip`** — Toolkit za MariaDB, sadrži:
    - `quick_setup.sh` - instalacija i pokretanje servera
    - `mariadb_performance.cnf` - optimizovana konfiguracija
 
-3. **`knowledge/` folder sa dokumentima:**
+2. **`knowledge/` folder sa dokumentima:**
    - `BIZNISOFT_MASTER_REFERENCE.md` - glavni referentni dokument
    - `biznisoft_dokumentacija.md` - uputstva sa sajta proizvođača
    - `biznisoft_stored_procedures.md` - 105 procedura iz transakcione baze
@@ -71,7 +67,7 @@ Koristi meta-skill-creator da kreiraš agent skill za autonomnu analizu BizniSof
    - `implicit_relations.md` - kako se tabele povezuju bez FK
    - `dump_parsing_tips.md` - saveti za parsiranje SQL dump-ova
 
-4. **Skripte:**
+3. **Skripte:**
    - `setup_mariadb.sh` - instalacija i pokretanje MariaDB
    - `restart_mariadb.sh` - brzi restart servera
    - `import_database.sh` - import SQL dumpa u bazu
@@ -131,7 +127,7 @@ Prenesite ceo `biznisoft_skill_input/` folder u novu DeepAgent konverzaciju.
 Dajte agentu instrukciju:
 ```
 Koristi priložene fajlove da kreiraš BizniSoft DB Analyst skill.
-Pročitaj meta-skill-creator za format, a ostale fajlove koristi kao knowledge i scripts.
+Ostale fajlove koristi kao knowledge i scripts.
 Prati instrukcije iz README.md sekcije "ŠTA SKILL TREBA DA UME".
 ```
 
@@ -164,4 +160,4 @@ Upload-ujte BizniSoft SQL dump i testirajte da li skill:
 | Dokumentacija | 1 | Sajt proizvođača |
 | **Ukupno knowledge** | **14** | |
 | Skripte | 6 | Bash skripte za MariaDB |
-| Toolkiti (ZIP) | 2 | Meta-skill creator + MariaDB toolkit |
+| Toolkiti (ZIP) | 1 | MariaDB toolkit |
