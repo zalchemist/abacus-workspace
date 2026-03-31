@@ -3,6 +3,21 @@
 Ovaj fajl beleži značajne promene u repozitorijumu. Svaki agent čita ovo na početku sesije.
 
 ---
+## [2026-03-31] Session: pojasnjenje-brisanja-grane
+
+**Agent:** GitHub Copilot Coding Agent
+
+### Urađeno
+
+- Dodato objašnjenje GitHub poruke o uspešnom merge-u i bezbednom brisanju grane
+- Ažuriran STATUS zapis o izmeni
+
+### Fajlovi
+
+- `AGENT-INSTRUCTIONS.md`
+- `STATUS.md`
+
+---
 ## [2026-03-31] Session: check-pending-reviews
 
 **Agent:** GitHub Copilot Coding Agent
