@@ -32,7 +32,7 @@
       "id": "pending-tasks-reporter",
       "name": "Pending Tasks Reporter",
       "description": "Agent koji brzo identifikuje taskove na čekanju i daje prirodni izveštaj o promenama",
-      "topics": ["status", "cekana", "pending", "pr", "changelog", "task-tracking"],
+      "topics": ["status", "čekanja", "pending", "pr", "changelog", "task-tracking"],
       "deployment_id": "TBD",
       "deployment_token": "TBD",
       "has_knowledge_base": false,
