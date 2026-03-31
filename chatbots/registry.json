@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-03-31",
   "chatbots": [
     {
@@ -23,7 +23,8 @@
       "deployment_id": "1127df3f3a",
       "deployment_token": "3f07cef6548d4c1c99925bb65c41a239",
       "has_knowledge_base": true,
-      "has_deep_agent_protocol": false,
+      "has_deep_agent_protocol": true,
+      "protocol_tags": ["[DEEP_AGENT_QUERY]", "[DEEP_AGENT_REPORT]", "[DEEP_AGENT_UPDATE]"],
       "document_retriever_id": "1088ad145a",
       "tools": [],
       "status": "active"
