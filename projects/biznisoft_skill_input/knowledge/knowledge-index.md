@@ -4,6 +4,7 @@ Indeks svih knowledge fajlova u projektu biznisoft_skill_input.
 
 | Fajl | Opis |
 |------|------|
+| analiza_pristup_lekcija.md | Lekcija: Pristup analizi finansijskih/robnih podataka |
 | BIZNISOFT_MASTER_REFERENCE.md | BIZNISOFT ERP — MASTER REFERENTNI DOKUMENT |
 | biznisoft_dependency_map.md | Biznisoft — Mapa zavisnosti: opp ↔ opp7102025 |
 | biznisoft_dokumentacija.md | BizniSoft ERP Dokumentacija |
@@ -21,4 +22,4 @@ Indeks svih knowledge fajlova u projektu biznisoft_skill_input.
 
 ---
 *Generisano: 2026-03-31*
-*Ukupno fajlova: 14*
+*Ukupno fajlova: 15*
