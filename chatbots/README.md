@@ -15,6 +15,7 @@ Agent može da:
 |-------|------|---------------|
 | GitHub Workspace Assistant | Biznisoft MySQL, Git operacije | 14e982c370 |
 | Abacus Knowledge Brain | Abacus.AI platforma, API | 1127df3f3a |
+| Pending Tasks Reporter | Status čekanja, PR-ovi, promene | TBD |
 
 ## API poziv
 

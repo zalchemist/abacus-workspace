@@ -27,6 +27,19 @@
       "document_retriever_id": "1088ad145a",
       "tools": [],
       "status": "active"
+    },
+    {
+      "id": "pending-tasks-reporter",
+      "name": "Pending Tasks Reporter",
+      "description": "Agent koji brzo identifikuje taskove na čekanju i daje prirodni izveštaj o promenama",
+      "topics": ["status", "cekana", "pending", "pr", "changelog", "task-tracking"],
+      "deployment_id": "TBD",
+      "deployment_token": "TBD",
+      "has_knowledge_base": false,
+      "has_deep_agent_protocol": true,
+      "protocol_tags": ["[DEEP_AGENT_QUERY]", "[DEEP_AGENT_REPORT]"],
+      "tools": ["Git_Tool"],
+      "status": "draft"
     }
   ]
 }
