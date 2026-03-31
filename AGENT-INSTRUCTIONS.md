@@ -1,330 +1,173 @@
-# AGENT INSTRUCTIONS v2.0
+# Agent Instructions v3.0
+> Poslednje ažuriranje: 2026-03-31
+> Jezik: srpski, latinica, ekavica
 
-> Instrukcije za AI agente koji rade sa Abacus ekosistemom repozitorijuma.
+## OBAVEZNO ČITANJE
 
----
-
-## 1. KRITIČNO - POČETAK SESIJE
-
-**Ovo MORAŠ uraditi pre bilo kakvog rada:**
-
-### Korak 1: Pročitaj CHANGELOG
-```
-Učitaj: abacus-workspace/CHANGELOG.md
-```
-- Pogledaj poslednjih 5-10 unosa
-- Razumi šta je rađeno u prethodnim sesijama
-- Identifikuj aktivne projekte/zadatke
-
-### Korak 2: Identifikuj tip zadatka
-Korisnikov zahtev spada u jednu od kategorija:
-
-| Tip | Opis | Primarni repo |
-|-----|------|---------------|
-| 🔬 Istraživanje | Nova ideja, analiza, draft | abacus-workspace |
-| 🛠️ Razvoj projekta | Rad na postojećem projektu | abacus-workspace/projects/ |
-| ⚡ Kreiranje SKILL-a | Novi skill za agente | abacus-skill-creator |
-| 📦 Korišćenje SKILL-a | Primena postojećeg skill-a | abacus-skills |
-
-### Korak 3: Učitaj resurse PO POTREBI
-
-| Ako radiš... | Učitaj |
-|--------------|--------|
-| Kreiranje SKILL-a | `abacus-skill-creator/SKILL.md` |
-| Korišćenje SKILL-a | `abacus-skills/{skill-name}/` |
-| Nastavak projekta | `abacus-workspace/projects/{projekat}/README.md` |
-
-### Korak 4: Proveri git status
-```bash
-cd /relevantni-repo
-git status
-git pull origin main
-```
-
-### Korak 5: Potvrdi razumevanje
-Reci korisniku:
-- Šta si pročitao iz CHANGELOG-a
-- Kako razumeš zadatak
-- Gde ćeš raditi
+Ovaj dokument je OBAVEZAN za svakog agenta pre bilo kakvog rada. Ako nisi pročitao ovaj dokument u celosti, STANI i pročitaj ga sada.
 
 ---
 
-## 2. HIJERARHIJA REPOZITORIJUMA
+## 1. PRIORITET DOKUMENATA
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ABACUS EKOSISTEM                             │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌──────────────────────┐                                       │
-│  │  abacus-workspace    │ ← RADNI PROSTOR                       │
-│  │  ──────────────────  │                                       │
-│  │  /projects/          │   Aktivni projekti                    │
-│  │  /research/          │   Istraživanja i analize              │
-│  │  /drafts/            │   Skice i ideje                       │
-│  │  /logs/sessions/     │   Session logovi                      │
-│  │  CHANGELOG.md        │   Istorija promena                    │
-│  └──────────┬───────────┘                                       │
-│             │                                                   │
-│             │ projekat prerasta                                 │
-│             │ (KORISNIK odlučuje)                               │
-│             ▼                                                   │
-│  ┌──────────────────────┐      ┌──────────────────────┐         │
-│  │  abacus-skills       │ ←────│ abacus-skill-creator │         │
-│  │  ──────────────────  │      │ ──────────────────── │         │
-│  │  REGISTAR            │      │ FABRIKA              │         │
-│  │                      │      │                      │         │
-│  │  Gotovi skills-i     │      │ 5-fazni pipeline:    │         │
-│  │  spremni za upotrebu │      │ 1. Definicija        │         │
-│  │                      │      │ 2. Arhitektura       │         │
-│  │  /skill-name/        │      │ 3. Implementacija    │         │
-│  │    ├── README.md     │      │ 4. Testiranje        │         │
-│  │    ├── prompt.md     │      │ 5. Registracija      │         │
-│  │    └── examples/     │      │                      │         │
-│  └──────────────────────┘      └──────────────────────┘         │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+### Nivo 1: ALWAYS (uvek pročitaj)
+- `AGENT-INSTRUCTIONS.md` - ovaj fajl
+- `STATUS.md` - pre SVAKOG deliverable-a
 
-### Tok podataka
+### Nivo 2: AUTO ATTACHED (kada radiš na projektu)
+- `projects/[ime_projekta]/README.md`
+- `projects/[ime_projekta]/CHECKPOINT.md` (ako postoji)
 
+### Nivo 3: AGENT REQUESTED (kada ti treba skill)
+- Prvo pročitaj `SKILL-INDEX.md` u abacus-skill-creator repozitorijumu
+- Zatim učitaj potreban skill
+
+### Nivo 4: MANUAL (samo kada korisnik kaže)
+- Specifične instrukcije date u chatu
+
+---
+
+## 2. KONTEKST DETEKCIJA
+
+Pre nego što počneš da radiš, odredi tip zadatka:
+
+| Tip | Primeri | Pristup |
+|-----|---------|---------||
+| **Jednostavan** | Prevod, kratko pitanje, definicija | Odgovori direktno, bez primera |
+| **Srednji** | Analiza, izveštaj, pregled | Daj nacrt/primer, čekaj potvrdu |
+| **Kompleksan** | Razvoj, multifile, sistem | Checkpoint na svakom koraku |
+
+### Kako prepoznati kompleksan zadatak:
+- Više od 3 fajla
+- Više od 1 sat rada
+- Uključuje bazu podataka ili API
+- Korisnik kaže "detaljno", "kompletno", "sve"
+
+---
+
+## 3. CHECKPOINT PRAVILA
+
+### Pre SVAKOG deliverable-a:
+1. Pročitaj `STATUS.md`
+2. Proveri da li je neko drugi radio na istom
+3. Daj PRIMER pre izvršenja (osim za jednostavne zadatke)
+4. Čekaj potvrdu korisnika
+
+### Ako je prošlo više od 5 poruka:
+- Pročitaj ponovo `STATUS.md`
+- Proveri da li se nešto promenilo
+
+### Ako korisnik kaže "nastavi" posle pauze:
+- Pročitaj `STATUS.md`
+- Rezimiraj gde smo stali
+- Pitaj da li da nastaviš
+
+---
+
+## 4. PRAVILA KOMUNIKACIJE
+
+### NE RADI:
+- Ne istrčavaj sa deliverable-om bez primera
+- Ne agregiraj podatke ako korisnik traži originalne
+- Ne pretpostavljaj - PITAJ
+- Ne preskači korake da bi bio brži
+
+### RADI:
+- Daj primer pre izvršenja
+- Zadrži originalnu strukturu podataka
+- Pitaj ako nešto nije jasno
+- Logiraj svoj rad u STATUS.md
+
+### Format primera:
 ```
-[Nova ideja] → workspace/drafts/ → workspace/research/ → workspace/projects/
-                                                              │
-                                    ┌─────────────────────────┘
-                                    │ Ako postane reusable skill
-                                    ▼
-                            skill-creator (pipeline)
-                                    │
-                                    ▼
-                              abacus-skills (registar)
+Pre nego što nastavim, evo primera kako će izgledati:
+[primer]
+Da li je ovo ok? Ako jeste, nastavljam.
 ```
 
 ---
 
-## 3. CHANGELOG SISTEM
+## 5. LOGOVANJE
 
-### Lokacija
-```
-abacus-workspace/CHANGELOG.md
-```
-
-### Format unosa
-
-```markdown
-## [YYYY-MM-DD] Session: kratak-opis
-
-**Agent:** DeepAgent/ChatLLM  
-**Trajanje:** ~Xh  
-
-### Urađeno
-- Kratki opis promene 1
-- Kratki opis promene 2
-
-### Fajlovi
-- `projects/ime-projekta/` - novi projekat
-- `research/analiza.md` - nova analiza
-
-### Sledeći koraci
-- Šta treba uraditi dalje (opciono)
-
----
-```
-
-### Kada upisivati u CHANGELOG
-
-✅ **UPIŠI ako:**
-- Kreiran novi projekat/folder
-- Završena značajna faza rada
-- Donesena važna odluka
-- Promenjene instrukcije ili konfiguracija
-
-❌ **NE UPISUJ za:**
-- Sitne ispravke teksta
-- Čitanje dokumentacije
-- Neuspele pokušaje
-- Nedovršen rad (osim ako je značajan)
-
-### Session logovi
-
-Za detaljnije beleške, koristi:
-```
-abacus-workspace/logs/sessions/YYYY-MM-DD-kratak-opis.md
-```
-
-Format session loga:
-```markdown
-# Session: Kratak opis
-**Datum:** YYYY-MM-DD
-**Agent:** DeepAgent
-
-## Kontekst
-Šta je korisnik tražio...
-
-## Proces
-1. Korak 1...
-2. Korak 2...
-
-## Rezultat
-Šta je postignuto...
-
-## Napomene
-Dodatne informacije za buduće sesije...
-```
-
----
-
-## 4. PRAVILA ZA RAD
-
-### Tabela: gde šta ide
-
-| Tip sadržaja | Folder | Primer |
-|--------------|--------|--------|
-| Nova ideja, skica | `drafts/` | `drafts/ideja-chatbot.md` |
-| Istraživanje, analiza | `research/` | `research/llm-comparison-2024.md` |
-| Aktivan projekat | `projects/{ime}/` | `projects/api-monitor/` |
-| Gotov skill | `abacus-skills/{ime}/` | `abacus-skills/code-reviewer/` |
-| Session log | `logs/sessions/` | `logs/sessions/2024-03-30-setup.md` |
-
-### Konvencije imenovanja
-
-```
-Folderi:    kebab-case        primer: my-project-name
-Fajlovi:    kebab-case.md     primer: project-plan.md
-Datumi:     YYYY-MM-DD        primer: 2024-03-30
-```
-
-### Git pravila
-
-**Commit poruke na SRPSKOM:**
-```bash
-# Format
-git commit -m "tip: kratak opis"
-
-# Tipovi
-feat:     nova funkcionalnost
-fix:      ispravka
-docs:     dokumentacija
-refactor: refaktorisanje
-chore:    održavanje
-```
-
-**Primeri:**
-```bash
-git commit -m "feat: dodat changelog sistem"
-git commit -m "docs: ažurirane instrukcije za agente"
-git commit -m "fix: ispravljena putanja do skills-a"
-```
-
-**Obavezne komande pre push-a:**
-```bash
-git status              # proveri šta se menja
-git diff                # pregledaj promene
-git add .               # ili specifični fajlovi
-git commit -m "..."     
-git push origin main
-```
-
----
-
-## 5. TRIGGERI ZA SPECIJALNE AKCIJE
-
-### 🔴 TRIGGER: Potreban SKILL
-
-**Prepoznaj po:**
-- Korisnik kaže "napravi skill", "kreiraj skill"
-- Potrebna je reusable komponenta za agente
-- Nešto treba da bude u abacus-skills
-
-**Akcija:**
-```
-1. STOP - ne improvizuj
-2. Učitaj: abacus-skill-creator/SKILL.md
-3. Prati 5-fazni pipeline do kraja
-4. Registruj rezultat u abacus-skills
-```
-
-### 🟡 TRIGGER: Projekat prerasta
-
-**Prepoznaj po:**
-- Projekat u workspace postaje prevelik
-- Treba mu sopstveni repo
-- Postaje production-ready
-
-**Akcija:**
-```
-⚠️ NE ODLUČUJ SAM!
-
-Reci korisniku:
-"Ovaj projekat je dorastao za sopstveni repozitorijum. 
-Da li želiš da ga:
-a) Zadržimo u workspace-u
-b) Prebacimo u novi repo
-c) Prebacimo u abacus-skills (ako je skill)"
-```
-
-### 🟢 TRIGGER: Nejasnoća
-
-**Prepoznaj po:**
-- Nisi siguran gde nešto ide
-- Instrukcije su dvosmislene
-- Više opcija ima smisla
-
-**Akcija:**
-```
-PITAJ, NE PRETPOSTAVLJAJ!
-
-Formuliši pitanje jasno:
-"Razumem da treba X. Imam dve opcije:
-A) ...
-B) ...
-Koja ti više odgovara?"
-```
-
----
-
-## 6. KRAJ SESIJE
-
-### Checklist pre završetka
-
-```
-□ Da li je bilo značajnih promena?
-  └─ DA → Ažuriraj CHANGELOG.md
-  
-□ Da li je sesija bila kompleksna?
-  └─ DA → Kreiraj session log u logs/sessions/
-  
-□ Da li ima uncommitted promena?
-  └─ DA → git add, commit, push
-  
-□ Da li ima nedovršenog posla?
-  └─ DA → Zabeleži u "Sledeći koraci" u CHANGELOG-u
-```
-
-### Završna poruka korisniku
-
-Uključi:
+### Posle SVAKOG završenog zadatka:
+Upiši u `STATUS.md`:
+- Datum i vreme
 - Šta je urađeno
-- Gde su fajlovi (putanje)
-- Šta je sledeće (ako ima)
-- Link na CHANGELOG ako je ažuriran
+- Gde su rezultati
+- Sledeći korak (ako postoji)
 
----
-
-## QUICK REFERENCE
-
-```
-┌─────────────────────────────────────────────────────┐
-│ POČETAK: Pročitaj CHANGELOG → Identifikuj zadatak  │
-│ RAD:     Koristi pravi repo → Prati konvencije     │
-│ SKILL:   Učitaj SKILL.md → Prati pipeline          │
-│ ODLUKE:  Pitaj korisnika → Ne pretpostavljaj       │
-│ KRAJ:    CHANGELOG → Session log → Commit & Push   │
-└─────────────────────────────────────────────────────┘
+### Format:
+```markdown
+## [DATUM] - [KRATAK OPIS]
+- **Agent:** [ime sesije ako je poznato]
+- **Urađeno:** [šta]
+- **Rezultat:** [gde je fajl/link]
+- **Sledeće:** [šta treba dalje]
 ```
 
 ---
 
-*Verzija: 2.0*  
-*Poslednje ažuriranje: 2024-03-30*  
-*Autor: Korisnik + DeepAgent*
+## 6. RAD SA GITHUB-om
+
+### Pravila:
+- Nikad `force push`
+- Za izmene koristi feature branch
+- Commit poruke na srpskom, jasne i kratke
+- PR za sve osim hitnih ispravki
+
+### Struktura repozitorijuma:
+```
+abacus-workspace/          ← Projekti i radni prostor
+├── AGENT-INSTRUCTIONS.md  ← Ovaj fajl
+├── STATUS.md              ← Trenutno stanje
+└── projects/              ← Aktivni projekti
+
+abacus-skill-creator/      ← Alat za kreiranje + biblioteka skills-a
+├── SKILL.md               ← Uputstvo za kreiranje
+└── skills/                ← Svi kreirani skills-i
+```
+
+---
+
+## 7. SKILLS
+
+### Gde su skills-i:
+- Repozitorijum: `zalchemist/abacus-skill-creator`
+- Folder: `skills/`
+- Indeks: `SKILL-INDEX.md`
+
+### Kada koristiti skill:
+1. Pročitaj `SKILL-INDEX.md`
+2. Pronađi odgovarajući skill
+3. Kloniraj/pročitaj skill sa GitHub-a
+4. Prati uputstva iz `SKILL.md` unutar skill-a
+
+### Kreiranje novog skill-a:
+- Koristi metodologiju iz `abacus-skill-creator/SKILL.md`
+- 5 faza: Discovery, Design, Architecture, Detection, Implementation
+- Po završetku, dodaj u `skills/` folder i ažuriraj indeks
+
+---
+
+## 8. GREŠKE I UČENJE
+
+### Ako napraviš grešku:
+1. Priznaj grešku
+2. Objasni šta je pošlo naopako
+3. Predloži ispravku
+4. Upiši u STATUS.md kao "LEKCIJA NAUČENA"
+
+### Česte greške koje treba izbegavati:
+- Agregacija umesto originalnih podataka
+- Preskakanje primera
+- Pretpostavljanje umesto pitanja
+- Zaboravljanje da se pročita STATUS.md
+
+---
+
+## VERZIJA I ISTORIJA
+
+| Verzija | Datum | Izmene |
+|---------|-------|--------|
+| 3.0 | 2026-03-31 | Kompletna reorganizacija, dodati prioriteti, checkpoint, logovanje |
+| 2.0 | 2024-03-30 | Prethodna verzija |
