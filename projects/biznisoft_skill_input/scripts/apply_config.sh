@@ -5,6 +5,8 @@
 # Koristi: sudo bash apply_config.sh
 # =============================================================================
 
+set -e
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILL_DIR="$(dirname "$SCRIPT_DIR")"
 CONFIG_SRC="$SKILL_DIR/config/mariadb_performance.cnf"
@@ -48,13 +50,23 @@ echo "[INFO] Restart MariaDB servera za primenu konfiguracije..."
 if command -v systemctl &>/dev/null && systemctl is-system-running &>/dev/null 2>&1; then
     sudo systemctl restart mariadb
 else
-    # Non-systemd: ručni restart
-    sudo mysqladmin -u root shutdown 2>/dev/null || true
+    # Non-systemd: pokušaj graceful gašenja pa kontrolisan start.
+    if sudo mysqladmin -u root shutdown &>/dev/null; then
+        echo "[INFO] MariaDB graceful shutdown uspešan."
+    else
+        echo "[WARN] Graceful shutdown nije uspeo; pokušavam SIGTERM nad poznatim PID-ovima."
+        pids="$(pgrep -x mysqld || true)"
+        pids="${pids}"$'\n'"$(pgrep -x mariadbd || true)"
+        if [ -n "$(echo "$pids" | tr -d '\n[:space:]')" ]; then
+            while IFS= read -r pid; do
+                [ -z "$pid" ] && continue
+                sudo kill -TERM "$pid" 2>/dev/null || true
+            done <<< "$pids"
+            sleep 3
+        fi
+    fi
     sleep 2
-    sudo pkill -9 mysqld 2>/dev/null || true
-    sudo pkill -9 mariadbd 2>/dev/null || true
-    sleep 2
-    sudo mysqld_safe &
+    sudo mysqld_safe --defaults-extra-file="$CONFIG_DST" &
     sleep 3
 fi
 

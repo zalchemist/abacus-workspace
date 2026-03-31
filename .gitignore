@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database artifacts
+db_dumps/
+*.sql.gz
+*.sql.zip
+*.dump
+
+# Logs and temp files
+logs/*.log
+*.log
+tmp/
+.tmp/
+
+# OS/editor noise
+.DS_Store
+*.swp

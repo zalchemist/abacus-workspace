@@ -2,7 +2,7 @@
 
 ## Osnovne informacije
 - **Deployment ID:** 14e982c370
-- **Deployment Token:** aa12e1f29bf945c8a5fa0ae203873ff2
+- **Deployment Token:** `<SET_VIA_SECRET_MANAGER>`
 - **Model:** Claude V4.5 Sonnet
 - **Status:** Active
 
@@ -26,8 +26,10 @@ Koristi za slanje značajnih update-a.
 
 ## Primer korišćenja
 ```python
+import os
+
 response = client.get_chat_response(
-    deployment_token='aa12e1f29bf945c8a5fa0ae203873ff2',
+    deployment_token=os.environ['ABACUS_DEPLOYMENT_TOKEN'],
     deployment_id='14e982c370',
     messages=[{
         'is_user': True,

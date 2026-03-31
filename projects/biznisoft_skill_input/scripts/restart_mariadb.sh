@@ -5,6 +5,8 @@
 # Koristi: sudo bash restart_mariadb.sh
 # =============================================================================
 
+set -e
+
 echo "=== MariaDB Restart ==="
 
 # 1. Provera trenutnog statusa
@@ -17,11 +19,15 @@ else
     echo "[INFO] MariaDB nije aktivan. Pokretanje..."
 fi
 
-# 2. Ubij zaostale procese ako postoje
+# 2. Ako i dalje postoje procesi, pokušaj kontrolisano gašenje (bez SIGKILL)
 if pgrep -x mysqld &>/dev/null || pgrep -x mariadbd &>/dev/null; then
     echo "[INFO] Zaustavljam zaostale procese..."
-    sudo pkill -9 mysqld 2>/dev/null || true
-    sudo pkill -9 mariadbd 2>/dev/null || true
+    pids="$(pgrep -x mysqld || true)"
+    pids="${pids}"$'\n'"$(pgrep -x mariadbd || true)"
+    while IFS= read -r pid; do
+        [ -z "$pid" ] && continue
+        sudo kill -TERM "$pid" 2>/dev/null || true
+    done <<< "$pids"
     sleep 2
 fi
 
@@ -29,8 +35,13 @@ fi
 if command -v systemctl &>/dev/null && systemctl is-system-running &>/dev/null 2>&1; then
     sudo systemctl restart mariadb
 else
-    sudo mysqld_safe &
-    sleep 3
+    # Non-systemd fallback: pokreni novu instancu samo ako nije već aktivna.
+    if pgrep -x mysqld >/dev/null || pgrep -x mariadbd >/dev/null; then
+        echo "[INFO] MariaDB proces je već pokrenut, preskačem dodatni start."
+    else
+        sudo mysqld_safe &
+        sleep 3
+    fi
 fi
 
 # 4. Čekanje da bude spreman
