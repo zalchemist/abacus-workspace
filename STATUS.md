@@ -21,6 +21,11 @@
 
 ## Poslednje izmene
 
+### 2026-03-31 - Pojasnjenje poruke o merge-u i brisanju grane
+- **Urađeno:** Dodato objašnjenje GitHub poruke o uspešnom merge-u i bezbednom brisanju grane
+- **Rezultat:** Ažuriran `AGENT-INSTRUCTIONS.md` (sekcija "Rad sa GitHub-om")
+- **Sledeće:** N/A
+
 ### 2026-03-31 - Provera stavki koje čekaju potvrdu
 - **Urađeno:** Provereni otvoreni PR-ovi u abacus-workspace, abacus-skills i abacus-skill-creator
 - **Nalaz:** Jedini otvoren PR je #18 u abacus-workspace (draft, ovaj rad)

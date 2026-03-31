@@ -116,6 +116,12 @@ Upiši u `STATUS.md`:
 - Commit poruke na srpskom, jasne i kratke
 - PR za sve osim hitnih ispravki
 
+### Brisanje grane posle merge-a
+- Poruka „Pull request successfully merged and closed… branch can be safely deleted“ znači da su izmene iz grane uspešno spojene u ciljnu granu i PR je zatvoren.
+- Bezbedno je obrisati granu ako **nema daljeg rada** na njoj i **nema ne-merge-ovanih commit-a**.
+- Ako planiraš dodatne izmene ili želiš istoriju, ostavi granu ili napravi tag/backup pre brisanja.
+- Lokalnu granu briši tek kad proveriš da nemaš lokalne izmene koje nisu push-ovane.
+
 ### Struktura repozitorijuma:
 ```
 abacus-workspace/          ← Projekti i radni prostor
