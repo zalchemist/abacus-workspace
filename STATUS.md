@@ -21,6 +21,11 @@
 
 ## Poslednje izmene
 
+### 2026-03-31 - Kreiran agent za čekanja
+- **Urađeno:** Dodat Pending Tasks Reporter u registry i dokumentovan način rada
+- **Rezultat:** chatbots/pending-tasks-reporter/README.md
+- **Sledeće:** Popuniti deployment_id/deployment_token nakon kreiranja agenta
+
 ### 2026-03-31 - Provera stavki koje čekaju potvrdu
 - **Urađeno:** Provereni otvoreni PR-ovi u abacus-workspace, abacus-skills i abacus-skill-creator
 - **Nalaz:** Jedini otvoren PR je #18 u abacus-workspace (draft, ovaj rad)
