@@ -3,6 +3,23 @@
 Ovaj fajl beleži značajne promene u repozitorijumu. Svaki agent čita ovo na početku sesije.
 
 ---
+## [2026-03-31] Session: check-pending-reviews
+
+**Agent:** GitHub Copilot Coding Agent
+
+### Urađeno
+
+- Dodata sekcija **"Čekanja potvrde"** u STATUS.md sa pregledom otvorenih PR-ova po repozitorijumu
+- Zabeležen rezultat provere (otvoren samo draft PR #18 u abacus-workspace)
+- Ažurirana CHECKPOINT pravila u AGENT-INSTRUCTIONS.md za obaveznu proveru te sekcije
+
+### Fajlovi
+
+- `STATUS.md`
+- `AGENT-INSTRUCTIONS.md`
+
+---
+
 ## [2026-03-31] Session: registry-templates-knowledge-index
 
 **Agent:** DeepAgent
