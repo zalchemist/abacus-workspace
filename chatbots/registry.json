@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "updated": "2026-03-31",
+  "chatbots": [
+    {
+      "id": "github-workspace-assistant",
+      "name": "GitHub Workspace Assistant",
+      "description": "Knowledge Brain za Biznisoft MySQL bazu i Git operacije",
+      "topics": ["biznisoft", "mysql", "sql", "git", "database"],
+      "deployment_id": "14e982c370",
+      "deployment_token": "aa12e1f29bf945c8a5fa0ae203873ff2",
+      "has_knowledge_base": false,
+      "has_deep_agent_protocol": true,
+      "protocol_tags": ["[DEEP_AGENT_QUERY]", "[DEEP_AGENT_REPORT]", "[DEEP_AGENT_UPDATE]"],
+      "tools": ["Git_Tool"],
+      "status": "active"
+    },
+    {
+      "id": "abacus-knowledge-brain",
+      "name": "Abacus Knowledge Brain",
+      "description": "Ekspert za Abacus.AI platformu, API, chatbotove, Document Retrievere",
+      "topics": ["abacus", "api", "chatbot", "document-retriever", "feature-group", "deployment"],
+      "deployment_id": "1127df3f3a",
+      "deployment_token": "3f07cef6548d4c1c99925bb65c41a239",
+      "has_knowledge_base": true,
+      "has_deep_agent_protocol": false,
+      "document_retriever_id": "1088ad145a",
+      "tools": [],
+      "status": "active"
+    }
+  ]
+}
