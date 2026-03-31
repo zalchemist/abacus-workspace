@@ -9,7 +9,22 @@
 
 ---
 
+## Čekanja potvrde (repo status)
+
+| Repozitorijum | Status | Detalji | Sledeći korak |
+|---------------|--------|---------|---------------|
+| abacus-workspace | Otvoren PR (#18) | Draft: "Check for pending reviews in repositories" | Sačekati potvrdu/merge |
+| abacus-skills | Nema otvorenih PR-ova | — | N/A |
+| abacus-skill-creator | Nema otvorenih PR-ova | — | N/A |
+
+---
+
 ## Poslednje izmene
+
+### 2026-03-31 - Provera stavki koje čekaju potvrdu
+- **Urađeno:** Provereni otvoreni PR-ovi u abacus-workspace, abacus-skills i abacus-skill-creator
+- **Nalaz:** Jedini otvoren PR je #18 u abacus-workspace (draft, ovaj rad)
+- **Sledeće:** Sačekati potvrdu/merge i ažurirati status
 
 ### 2026-03-31 - Audit nezavršenih stavki
 - **Urađeno:** Pregled svih PR-ova i grana u sva 3 repozitorijuma

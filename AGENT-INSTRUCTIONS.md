@@ -49,9 +49,10 @@ Pre nego što počneš da radiš, odredi tip zadatka:
 
 ### Pre SVAKOG deliverable-a:
 1. Pročitaj `STATUS.md`
-2. Proveri da li je neko drugi radio na istom
-3. Daj PRIMER pre izvršenja (osim za jednostavne zadatke)
-4. Čekaj potvrdu korisnika
+2. Pregledaj sekciju **"Čekanja potvrde"** i prijavi otvorene stavke
+3. Proveri da li je neko drugi radio na istom
+4. Daj PRIMER pre izvršenja (osim za jednostavne zadatke)
+5. Čekaj potvrdu korisnika
 
 ### Ako je prošlo više od 5 poruka:
 - Pročitaj ponovo `STATUS.md`
