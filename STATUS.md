@@ -11,6 +11,15 @@
 
 ## Poslednje izmene
 
+### 2026-03-31 - Audit nezavršenih stavki
+- **Urađeno:** Pregled svih PR-ova i grana u sva 3 repozitorijuma
+- **Nalaz:** PR #12 (abacus-workspace) bio zatvoren bez merge-a — fajl `analiza_pristup_lekcija.md` nikad dodat
+- **Rešeno:** Fajl dodat u `projects/biznisoft_skill_input/knowledge/` i indeks ažuriran
+- **Stanje repozitorijuma:**
+  - `abacus-workspace` — 1 otvoren PR (#17, ovaj), svi prethodni merge-ovani
+  - `abacus-skills` — bez otvorenih PR-ova, svi merge-ovani
+  - `abacus-skill-creator` — bez otvorenih PR-ova, svi merge-ovani
+
 ### 2026-03-31 - Reorganizacija sistema
 - **Urađeno:** Analiza strukture sva 3 repozitorijuma
 - **Rezultat:** /home/ubuntu/kompletna_struktura.md
@@ -29,6 +38,6 @@
 
 ## Napomene za sledeće sesije
 
-- Skills treba premestiti iz abacus-workspace u abacus-skill-creator
-- Kreirati skill "komunikacija-sa-korisnikom"
-- abacus-skills repo se gasi (sve ide u skill-creator)
+- ~~Skills treba premestiti iz abacus-workspace u abacus-skill-creator~~ — ZAVRŠENO (PR #15)
+- ~~Kreirati skill "komunikacija-sa-korisnikom"~~ — ZAVRŠENO (PR #3 u abacus-skill-creator)
+- ~~abacus-skills repo se gasi (sve ide u skill-creator)~~ — Napomena: repo i dalje postoji ali skills su u skill-creator
