@@ -1,0 +1,38 @@
+{
+  "ukupno_fakturisano_rsd": 328657367.14,
+  "ukupno_placeno_rsd": 329237222.71,
+  "razlika_rsd": -579855.57,
+  "dobavljaci_u_celosti_placeni": [
+    "UGOTEHNA",
+    "BANKON",
+    "TJ MAXIM",
+    "ENSACO",
+    "CWG BALKAN",
+    "MINOR",
+    "97 ENERGETIKA",
+    "BGASTIM"
+  ],
+  "dobavljaci_delimicno_placeni": [
+    "EBC",
+    "VOLANS",
+    "FLOORIMPACT",
+    "ROKTEL",
+    "MISON"
+  ],
+  "dobavljaci_preplaceni": [
+    "GASTRONAUT",
+    "GASTPRO",
+    "CITYCO",
+    "ENMON",
+    "UREDI DOM",
+    "G. DJORDJEVIC",
+    "UNIPROM",
+    "PMP ELEKTRO",
+    "JELISAVAC",
+    "BOTOMEX",
+    "MIOS"
+  ],
+  "dobavljaci_bez_placanja_u_gk": [],
+  "dobavljaci_neplaceni": [],
+  "napomena_mios": "MIOS fakture su u EUR - iznosi u baseline su EUR, placanja mogu biti u RSD po kursu"
+}

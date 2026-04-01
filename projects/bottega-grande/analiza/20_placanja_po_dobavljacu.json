@@ -1,0 +1,4160 @@
+[
+  {
+    "dobavljac_ime": "EBC",
+    "gk_nazivi": [
+      "EBC S NEW CONSTRUCTION TECHNOLOGY DOO"
+    ],
+    "analitika_kod": "P-00545",
+    "ukupno_fakturisano_rsd": 264574215.33,
+    "ukupno_placeno_rsd": 249238468.31,
+    "razlika_rsd": 15335747.02,
+    "status": "delimicno_placeno",
+    "broj_transakcija": 22,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-072/2",
+        "datum": "2025-06-23",
+        "iznos_duguje": 2000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 072",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-098",
+        "datum": "2025-07-30",
+        "iznos_duguje": 1200000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 098",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-100",
+        "datum": "2025-08-01",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 100",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-110/2",
+        "datum": "2025-08-15",
+        "iznos_duguje": 3000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 110",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 1760743.41,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-185/2",
+        "datum": "2025-11-28",
+        "iznos_duguje": 1652815.9,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 185",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-202/2",
+        "datum": "2025-12-24",
+        "iznos_duguje": 19000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 202",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-203/2",
+        "datum": "2025-12-25",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 19000000.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 203",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "2040.0"
+      },
+      {
+        "broj_naloga": "IZ190-203/2",
+        "datum": "2025-12-25",
+        "iznos_duguje": 19000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 203",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-203/2",
+        "datum": "2025-12-25",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 19000000.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 203",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "2040.0"
+      },
+      {
+        "broj_naloga": "IZ190-203/2",
+        "datum": "2025-12-25",
+        "iznos_duguje": 19000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 203",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-204",
+        "datum": "2025-12-26",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 7780084.56,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 204",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "2040.0"
+      },
+      {
+        "broj_naloga": "IZ190-204",
+        "datum": "2025-12-26",
+        "iznos_duguje": 9749780.94,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 204",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-204",
+        "datum": "2025-12-26",
+        "iznos_duguje": 9250219.06,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 204",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-204",
+        "datum": "2025-12-26",
+        "iznos_duguje": 19000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 204",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-206",
+        "datum": "2025-12-29",
+        "iznos_duguje": 16260379.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 206",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-003/6",
+        "datum": "2024-09-23",
+        "iznos_duguje": 105364530.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-196",
+        "datum": "2024-09-30",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 11750000.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "2040.0"
+      },
+      {
+        "broj_naloga": "IZ190-023",
+        "datum": "2024-11-08",
+        "iznos_duguje": 4000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-236",
+        "datum": "2024-11-26",
+        "iznos_duguje": 2000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 11000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-040",
+        "datum": "2024-12-24",
+        "iznos_duguje": 5000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "EBC S NEW CONSTRUCTION TECHNOLOGY DOO",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "GASTRONAUT",
+    "gk_nazivi": [
+      "GASTRONAUT D.O.O.  NOVI SAD"
+    ],
+    "analitika_kod": "P-00017",
+    "ukupno_fakturisano_rsd": 7467892.92,
+    "ukupno_placeno_rsd": 8019897.46,
+    "razlika_rsd": -552004.54,
+    "status": "preplaceno",
+    "broj_transakcija": 23,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 129979.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-012",
+        "datum": "2025-01-21",
+        "iznos_duguje": 908900.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 2274.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 113700.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-032",
+        "datum": "2025-02-19",
+        "iznos_duguje": 1739332.32,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 2073.6,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-064",
+        "datum": "2025-04-04",
+        "iznos_duguje": 54960.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-064",
+        "datum": "2025-04-04",
+        "iznos_duguje": 24678.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-027",
+        "datum": "2025-04-15",
+        "iznos_duguje": 105423.66,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-027",
+        "datum": "2025-04-15",
+        "iznos_duguje": 85457.58,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2025-05-09",
+        "iznos_duguje": 1901362.08,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 042",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 90519.66,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 14842.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 84172.38,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-076",
+        "datum": "2025-06-27",
+        "iznos_duguje": 48158.28,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 076",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-076",
+        "datum": "2025-06-27",
+        "iznos_duguje": 43088.76,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 076",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-078",
+        "datum": "2025-07-01",
+        "iznos_duguje": 16200.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 078",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-090",
+        "datum": "2025-07-18",
+        "iznos_duguje": 646572.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 090",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-103",
+        "datum": "2024-05-28",
+        "iznos_duguje": 7428.22,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-145",
+        "datum": "2024-07-23",
+        "iznos_duguje": 13314.24,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-195",
+        "datum": "2024-09-27",
+        "iznos_duguje": 41656.68,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-009",
+        "datum": "2024-10-08",
+        "iznos_duguje": 1617619.21,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-246/6",
+        "datum": "2024-12-09",
+        "iznos_duguje": 328184.39,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTRONAUT D.O.O.  NOVI SAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "GASTPRO",
+    "gk_nazivi": [
+      "GASTPRO DOO, BEOGRAD (ZEMUN)"
+    ],
+    "analitika_kod": "P-00529",
+    "ukupno_fakturisano_rsd": 4591123.98,
+    "ukupno_placeno_rsd": 7668529.89,
+    "razlika_rsd": -3077405.91,
+    "status": "preplaceno",
+    "broj_transakcija": 19,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-022",
+        "datum": "2025-02-04",
+        "iznos_duguje": 66872.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-022",
+        "datum": "2025-02-04",
+        "iznos_duguje": 59328.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 59328.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 32792.15,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-064",
+        "datum": "2025-04-04",
+        "iznos_duguje": 1147781.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-034",
+        "datum": "2025-04-25",
+        "iznos_duguje": 1147781.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-061",
+        "datum": "2025-06-06",
+        "iznos_duguje": 1147781.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-061",
+        "datum": "2025-06-06",
+        "iznos_duguje": 13105.32,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-085",
+        "datum": "2025-07-11",
+        "iznos_duguje": 600000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 085",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-087/2",
+        "datum": "2025-07-15",
+        "iznos_duguje": 547781.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 087",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-090",
+        "datum": "2025-07-18",
+        "iznos_duguje": 59327.98,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 090",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 41663.78,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 59328.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-187/2",
+        "datum": "2025-12-02",
+        "iznos_duguje": 31795.38,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 187",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 31488.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-207/2",
+        "datum": "2025-12-30",
+        "iznos_duguje": 2493665.21,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 207",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-185",
+        "datum": "2024-09-13",
+        "iznos_duguje": 29664.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-004",
+        "datum": "2024-09-24",
+        "iznos_duguje": 66271.1,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-197",
+        "datum": "2024-10-01",
+        "iznos_duguje": 32776.79,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GASTPRO DOO, BEOGRAD (ZEMUN)",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "UGOTEHNA",
+    "gk_nazivi": [
+      "UGOTEHNA 037 DOO KRUŠEVAC"
+    ],
+    "analitika_kod": "P-00727",
+    "ukupno_fakturisano_rsd": 410640.0,
+    "ukupno_placeno_rsd": 410640.0,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 1,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-056",
+        "datum": "2025-05-30",
+        "iznos_duguje": 410640.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "UGOTEHNA 037 DOO KRUŠEVAC",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "CITYCO",
+    "gk_nazivi": [
+      "CITYCO DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00053",
+    "ukupno_fakturisano_rsd": 1392060.0,
+    "ukupno_placeno_rsd": 2039012.2,
+    "razlika_rsd": -646952.2,
+    "status": "preplaceno",
+    "broj_transakcija": 21,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-041",
+        "datum": "2025-03-04",
+        "iznos_duguje": 468960.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 35581.92,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-029/2",
+        "datum": "2025-04-17",
+        "iznos_duguje": 468960.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 029",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2025-04-29",
+        "iznos_duguje": 9536.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-053",
+        "datum": "2025-05-27",
+        "iznos_duguje": 41305.5,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-113",
+        "datum": "2025-08-20",
+        "iznos_duguje": 9536.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 113",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 8683.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-001/2",
+        "datum": "2024-01-03",
+        "iznos_duguje": 56631.84,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-035",
+        "datum": "2024-02-20",
+        "iznos_duguje": 7668.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-048",
+        "datum": "2024-03-08",
+        "iznos_duguje": 2028.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-058",
+        "datum": "2024-03-22",
+        "iznos_duguje": 39094.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-063/2",
+        "datum": "2024-03-29",
+        "iznos_duguje": 123273.58,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-071/2",
+        "datum": "2024-04-09",
+        "iznos_duguje": 16598.76,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-091",
+        "datum": "2024-05-10",
+        "iznos_duguje": 187948.08,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-111",
+        "datum": "2024-06-07",
+        "iznos_duguje": 8419.68,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-166/2",
+        "datum": "2024-08-20",
+        "iznos_duguje": 2028.24,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-225",
+        "datum": "2024-11-08",
+        "iznos_duguje": 4328.64,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-029",
+        "datum": "2024-11-29",
+        "iznos_duguje": 41679.36,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "ID190-030",
+        "datum": "2024-12-02",
+        "iznos_duguje": 454140.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2024-12-27",
+        "iznos_duguje": 9536.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2024-12-27",
+        "iznos_duguje": 43073.64,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CITYCO DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "VOLANS",
+    "gk_nazivi": [
+      "VOLANS DESIGN HUB DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00278",
+    "ukupno_fakturisano_rsd": 7538926.97,
+    "ukupno_placeno_rsd": 5995707.43,
+    "razlika_rsd": 1543219.54,
+    "status": "delimicno_placeno",
+    "broj_transakcija": 21,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190--02",
+        "datum": "2025-01-10",
+        "iznos_duguje": -192391.73,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-016",
+        "datum": "2024-01-23",
+        "iznos_duguje": 919373.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-060",
+        "datum": "2024-03-26",
+        "iznos_duguje": 192650.82,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-079",
+        "datum": "2024-04-19",
+        "iznos_duguje": 192551.04,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-091",
+        "datum": "2024-05-10",
+        "iznos_duguje": 192531.64,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-118",
+        "datum": "2024-06-18",
+        "iznos_duguje": 192514.87,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-129",
+        "datum": "2024-07-02",
+        "iznos_duguje": 192428.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-145",
+        "datum": "2024-07-23",
+        "iznos_duguje": 531070.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-166/2",
+        "datum": "2024-08-20",
+        "iznos_duguje": 500000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-169/2",
+        "datum": "2024-08-23",
+        "iznos_duguje": 500000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-174",
+        "datum": "2024-08-30",
+        "iznos_duguje": 300000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-004",
+        "datum": "2024-09-24",
+        "iznos_duguje": 252883.94,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-004",
+        "datum": "2024-09-24",
+        "iznos_duguje": 18673.16,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-004",
+        "datum": "2024-09-24",
+        "iznos_duguje": 192384.49,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-004",
+        "datum": "2024-09-24",
+        "iznos_duguje": 192438.91,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-210",
+        "datum": "2024-10-18",
+        "iznos_duguje": 530571.84,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-212",
+        "datum": "2024-10-22",
+        "iznos_duguje": 192486.1,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-212",
+        "datum": "2024-10-22",
+        "iznos_duguje": 120572.27,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-029",
+        "datum": "2024-11-29",
+        "iznos_duguje": 192391.73,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 590184.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 192391.73,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "VOLANS DESIGN HUB DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "BANKON",
+    "gk_nazivi": [
+      "DUŠAN BANJANIN PR INŽENJERSKE DELATNOSTI I TEHNIČKO SAVETOVANJE BAN.KON BEOGRAD"
+    ],
+    "analitika_kod": "P-00274",
+    "ukupno_fakturisano_rsd": 158085.0,
+    "ukupno_placeno_rsd": 158085.0,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 1,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-090",
+        "datum": "2025-07-18",
+        "iznos_duguje": 158085.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 090",
+        "naziv_u_gk": "DUŠAN BANJANIN PR INŽENJERSKE DELATNOSTI I TEHNIČKO SAVETOVANJE BAN.KON BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "ENMON",
+    "gk_nazivi": [
+      "ENMON DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00530",
+    "ukupno_fakturisano_rsd": 1177337.19,
+    "ukupno_placeno_rsd": 1230214.39,
+    "razlika_rsd": -52877.2,
+    "status": "preplaceno",
+    "broj_transakcija": 8,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-003",
+        "datum": "2025-01-17",
+        "iznos_duguje": 357236.77,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-018",
+        "datum": "2025-01-29",
+        "iznos_duguje": 49089.54,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 36070.5,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-192",
+        "datum": "2025-12-09",
+        "iznos_duguje": 52877.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 192",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-177",
+        "datum": "2024-09-03",
+        "iznos_duguje": 187527.05,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-195",
+        "datum": "2024-09-27",
+        "iznos_duguje": 315566.54,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-215",
+        "datum": "2024-10-25",
+        "iznos_duguje": 202393.07,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-020",
+        "datum": "2024-11-05",
+        "iznos_duguje": 29453.72,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENMON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "UREDI DOM",
+    "gk_nazivi": [
+      "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+      "UREDI DOM"
+    ],
+    "analitika_kod": "P-00541",
+    "ukupno_fakturisano_rsd": 3010066.55,
+    "ukupno_placeno_rsd": 3045166.55,
+    "razlika_rsd": -35100.0,
+    "status": "preplaceno",
+    "broj_transakcija": 7,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2025-05-09",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 042",
+        "naziv_u_gk": "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-068",
+        "datum": "2025-06-17",
+        "iznos_duguje": 500000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-090",
+        "datum": "2025-07-18",
+        "iznos_duguje": 200000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 090",
+        "naziv_u_gk": "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-110/2",
+        "datum": "2025-08-15",
+        "iznos_duguje": 130066.55,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 110",
+        "naziv_u_gk": "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-138",
+        "datum": "2025-09-24",
+        "iznos_duguje": 100000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 138",
+        "naziv_u_gk": "STEFAN IGNJATOVIĆ PREDUZETNIK KERAMIČARSKA RADNJA UREDI DOM RABROVO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-190",
+        "datum": "2024-09-20",
+        "iznos_duguje": 35100.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "UREDI DOM",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-196",
+        "datum": "2024-09-30",
+        "iznos_duguje": 1080000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "UREDI DOM",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "FLOORIMPACT",
+    "gk_nazivi": [
+      "FLOORIMPACT DOO"
+    ],
+    "analitika_kod": "P-00462",
+    "ukupno_fakturisano_rsd": 9021205.0,
+    "ukupno_placeno_rsd": 8342654.95,
+    "razlika_rsd": 678550.05,
+    "status": "delimicno_placeno",
+    "broj_transakcija": 16,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-025/2",
+        "datum": "2025-02-07",
+        "iznos_duguje": 300000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 238516.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-032",
+        "datum": "2025-02-19",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-048",
+        "datum": "2025-05-20",
+        "iznos_duguje": 500000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-090",
+        "datum": "2025-07-18",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 090",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 1535914.54,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-208/2",
+        "datum": "2025-12-31",
+        "iznos_duguje": 88478.86,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 208",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-085",
+        "datum": "2024-04-26",
+        "iznos_duguje": 166658.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-091",
+        "datum": "2024-05-10",
+        "iznos_duguje": 81864.77,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-098",
+        "datum": "2024-05-21",
+        "iznos_duguje": 21600.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-111",
+        "datum": "2024-06-07",
+        "iznos_duguje": 100080.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-121",
+        "datum": "2024-06-21",
+        "iznos_duguje": 60000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-158",
+        "datum": "2024-08-09",
+        "iznos_duguje": 12000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-021",
+        "datum": "2024-11-06",
+        "iznos_duguje": 634227.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "ID190-030",
+        "datum": "2024-12-02",
+        "iznos_duguje": 1873382.08,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-262/2",
+        "datum": "2024-12-31",
+        "iznos_duguje": 729932.5,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "FLOORIMPACT DOO",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "TJ MAXIM",
+    "gk_nazivi": [
+      "TJ MAXIM DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00755",
+    "ukupno_fakturisano_rsd": 264240.0,
+    "ukupno_placeno_rsd": 264240.0,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 1,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-113",
+        "datum": "2025-08-20",
+        "iznos_duguje": 264240.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 113",
+        "naziv_u_gk": "TJ MAXIM DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "ENSACO",
+    "gk_nazivi": [
+      "ENSACO SOLUTIONS DOO"
+    ],
+    "analitika_kod": "P-00743",
+    "ukupno_fakturisano_rsd": 1019007.53,
+    "ukupno_placeno_rsd": 1019007.53,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 5,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-092",
+        "datum": "2025-07-22",
+        "iznos_duguje": 118974.41,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "ENSACO SOLUTIONS DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-157",
+        "datum": "2025-10-21",
+        "iznos_duguje": 449873.76,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 157",
+        "naziv_u_gk": "ENSACO SOLUTIONS DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-185/2",
+        "datum": "2025-11-28",
+        "iznos_duguje": 250000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 185",
+        "naziv_u_gk": "ENSACO SOLUTIONS DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-187/2",
+        "datum": "2025-12-02",
+        "iznos_duguje": 100000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 187",
+        "naziv_u_gk": "ENSACO SOLUTIONS DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-192",
+        "datum": "2025-12-09",
+        "iznos_duguje": 100159.36,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 192",
+        "naziv_u_gk": "ENSACO SOLUTIONS DOO",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "ROKTEL",
+    "gk_nazivi": [
+      "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI"
+    ],
+    "analitika_kod": "P-00574",
+    "ukupno_fakturisano_rsd": 3735538.6,
+    "ukupno_placeno_rsd": 3433134.24,
+    "razlika_rsd": 302404.36,
+    "status": "delimicno_placeno",
+    "broj_transakcija": 8,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 24505.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-041",
+        "datum": "2025-03-04",
+        "iznos_duguje": 1030161.99,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-177",
+        "datum": "2025-11-18",
+        "iznos_duguje": 66975.6,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 177",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-199/2",
+        "datum": "2025-12-19",
+        "iznos_duguje": 200000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 199",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-214",
+        "datum": "2024-10-24",
+        "iznos_duguje": 84240.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "ID190-030",
+        "datum": "2024-12-02",
+        "iznos_duguje": 1035641.62,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 240289.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 751320.63,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NIKOLA ROKSANDIĆ PR POSTAVLJANJE ELEKTRIČNIH INSTALACIJA I OPREME ROKTEL UGRINOVCI",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "CWG BALKAN",
+    "gk_nazivi": [
+      "CWG BALKAN DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00556",
+    "ukupno_fakturisano_rsd": 985809.65,
+    "ukupno_placeno_rsd": 985809.65,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 1,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-012",
+        "datum": "2024-10-11",
+        "iznos_duguje": 985809.65,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "CWG BALKAN DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "G. DJORDJEVIC",
+    "gk_nazivi": [
+      "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+      "NEMANJA ĐORĐEVIĆ PR GRNČARSKA RADNJA GRNČARIJA ĐORĐEVIĆ OBRENOVAC"
+    ],
+    "analitika_kod": "P-00305, P-00156",
+    "ukupno_fakturisano_rsd": 1909939.0,
+    "ukupno_placeno_rsd": 2534493.88,
+    "razlika_rsd": -624554.88,
+    "status": "preplaceno",
+    "broj_transakcija": 14,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-030",
+        "datum": "2025-02-14",
+        "iznos_duguje": 157100.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-067",
+        "datum": "2025-04-08",
+        "iznos_duguje": 334740.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-048",
+        "datum": "2025-05-20",
+        "iznos_duguje": 60000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NEMANJA ĐORĐEVIĆ PR GRNČARSKA RADNJA GRNČARIJA ĐORĐEVIĆ OBRENOVAC",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 20000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "NEMANJA ĐORĐEVIĆ PR GRNČARSKA RADNJA GRNČARIJA ĐORĐEVIĆ OBRENOVAC",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-092",
+        "datum": "2025-07-22",
+        "iznos_duguje": 76480.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-092",
+        "datum": "2025-07-22",
+        "iznos_duguje": 355500.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 281320.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-133",
+        "datum": "2025-09-17",
+        "iznos_duguje": 200000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 133",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-156",
+        "datum": "2025-10-20",
+        "iznos_duguje": 150000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 156",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 127910.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-192",
+        "datum": "2025-12-09",
+        "iznos_duguje": 127960.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 192",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-035",
+        "datum": "2024-02-20",
+        "iznos_duguje": 142719.88,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-197",
+        "datum": "2024-10-01",
+        "iznos_duguje": 197395.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2024-12-27",
+        "iznos_duguje": 303369.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "GORAN ĐORĐEVIĆ PR INSTALIRANJE ELEKTRIČNIH SISTEMA ĐORĐEVIĆ ELEKTRO KURŠUMLIJA",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "MINOR",
+    "gk_nazivi": [
+      "MINOR DOO BEOGRAD, ZEMUN"
+    ],
+    "analitika_kod": "P-00600",
+    "ukupno_fakturisano_rsd": 138175.08,
+    "ukupno_placeno_rsd": 138175.09,
+    "razlika_rsd": -0.01,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 11,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 1185.52,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 2695.5,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-067",
+        "datum": "2025-04-08",
+        "iznos_duguje": 38609.54,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-025",
+        "datum": "2025-04-11",
+        "iznos_duguje": 10226.83,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-053",
+        "datum": "2025-05-27",
+        "iznos_duguje": 3821.21,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-066",
+        "datum": "2025-06-13",
+        "iznos_duguje": 51100.32,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-066",
+        "datum": "2025-06-13",
+        "iznos_duguje": 2336.88,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 10174.82,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-034",
+        "datum": "2024-12-13",
+        "iznos_duguje": 7905.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-257",
+        "datum": "2024-12-24",
+        "iznos_duguje": 9446.87,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2024-12-27",
+        "iznos_duguje": 672.34,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MINOR DOO BEOGRAD, ZEMUN",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "UNIPROM",
+    "gk_nazivi": [
+      "PREDUZEĆE ZA UNUTRAŠNJU I SPOLJNU TRGOVINU UNIPROM D.O.O. BEOGRAD"
+    ],
+    "analitika_kod": "P-00594",
+    "ukupno_fakturisano_rsd": 46987.74,
+    "ukupno_placeno_rsd": 47197.26,
+    "razlika_rsd": -209.52,
+    "status": "preplaceno",
+    "broj_transakcija": 3,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-017",
+        "datum": "2025-01-28",
+        "iznos_duguje": 5478.3,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PREDUZEĆE ZA UNUTRAŠNJU I SPOLJNU TRGOVINU UNIPROM D.O.O. BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-117",
+        "datum": "2025-06-18",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 8369.66,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PREDUZEĆE ZA UNUTRAŠNJU I SPOLJNU TRGOVINU UNIPROM D.O.O. BEOGRAD",
+        "racun_konto": "2040.0"
+      },
+      {
+        "broj_naloga": "IZ190-027",
+        "datum": "2024-11-26",
+        "iznos_duguje": 41718.96,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PREDUZEĆE ZA UNUTRAŠNJU I SPOLJNU TRGOVINU UNIPROM D.O.O. BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "PMP ELEKTRO",
+    "gk_nazivi": [
+      "PMP-ELEKTRO DOO"
+    ],
+    "analitika_kod": "P-00485",
+    "ukupno_fakturisano_rsd": 3653816.14,
+    "ukupno_placeno_rsd": 7166146.14,
+    "razlika_rsd": -3512330.0,
+    "status": "preplaceno",
+    "broj_transakcija": 12,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-006/2",
+        "datum": "2025-01-24",
+        "iznos_duguje": 1007091.34,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 700000.01,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-068",
+        "datum": "2025-06-17",
+        "iznos_duguje": 147444.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-068",
+        "datum": "2025-06-17",
+        "iznos_duguje": 149574.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-154",
+        "datum": "2025-10-16",
+        "iznos_duguje": 300000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 154",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-156",
+        "datum": "2025-10-20",
+        "iznos_duguje": 150000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 156",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 216984.35,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-208/2",
+        "datum": "2025-12-31",
+        "iznos_duguje": 12330.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 208",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-115",
+        "datum": "2024-06-13",
+        "iznos_duguje": 3500000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "2324.0"
+      },
+      {
+        "broj_naloga": "IZ160-163/4",
+        "datum": "2024-08-15",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 1200000.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "2324.0"
+      },
+      {
+        "broj_naloga": "IZ160-176",
+        "datum": "2024-09-02",
+        "iznos_duguje": 0.0,
+        "iznos_potrazuje": 2300000.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "2324.0"
+      },
+      {
+        "broj_naloga": "IZ160-246/6",
+        "datum": "2024-12-09",
+        "iznos_duguje": 982722.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "PMP-ELEKTRO DOO",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "MISON",
+    "gk_nazivi": [
+      "MISON DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00583",
+    "ukupno_fakturisano_rsd": 2590905.6,
+    "ukupno_placeno_rsd": 2270820.0,
+    "razlika_rsd": 320085.6,
+    "status": "delimicno_placeno",
+    "broj_transakcija": 9,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-012",
+        "datum": "2025-01-21",
+        "iznos_duguje": 357.6,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-015",
+        "datum": "2025-02-28",
+        "iznos_duguje": 248107.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-016",
+        "datum": "2025-03-03",
+        "iznos_duguje": -248107.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-061",
+        "datum": "2025-06-06",
+        "iznos_duguje": 9958.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-066",
+        "datum": "2025-06-13",
+        "iznos_duguje": 9958.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 4800.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-022",
+        "datum": "2024-11-07",
+        "iznos_duguje": 503119.68,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "ID190-030",
+        "datum": "2024-12-02",
+        "iznos_duguje": 1179401.52,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-247",
+        "datum": "2024-12-10",
+        "iznos_duguje": 563223.6,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MISON DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "97 ENERGETIKA",
+    "gk_nazivi": [
+      "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00613",
+    "ukupno_fakturisano_rsd": 10112297.93,
+    "ukupno_placeno_rsd": 10112297.92,
+    "razlika_rsd": 0.01,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 13,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-012",
+        "datum": "2025-01-21",
+        "iznos_duguje": 700000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-006/2",
+        "datum": "2025-01-24",
+        "iznos_duguje": 222562.61,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 300000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-032",
+        "datum": "2025-02-19",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-041",
+        "datum": "2025-03-04",
+        "iznos_duguje": 1000000.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-049",
+        "datum": "2025-03-14",
+        "iznos_duguje": 201250.85,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-064",
+        "datum": "2025-04-04",
+        "iznos_duguje": 201250.85,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-064",
+        "datum": "2025-04-04",
+        "iznos_duguje": 1294799.14,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-025",
+        "datum": "2025-04-11",
+        "iznos_duguje": 1786276.01,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-025",
+        "datum": "2025-04-11",
+        "iznos_duguje": 201250.85,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-073",
+        "datum": "2025-06-24",
+        "iznos_duguje": 374283.97,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 073",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 524169.81,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-036",
+        "datum": "2024-12-17",
+        "iznos_duguje": 2306453.83,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "JELISAVAC",
+    "gk_nazivi": [
+      "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00736",
+    "ukupno_fakturisano_rsd": 819749.3,
+    "ukupno_placeno_rsd": 1515423.81,
+    "razlika_rsd": -695674.51,
+    "status": "preplaceno",
+    "broj_transakcija": 5,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-063",
+        "datum": "2025-06-10",
+        "iznos_duguje": -245983.28,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-063",
+        "datum": "2025-06-10",
+        "iznos_duguje": 245983.28,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-065",
+        "datum": "2025-06-12",
+        "iznos_duguje": 245983.28,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-092",
+        "datum": "2025-07-22",
+        "iznos_duguje": 573766.02,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-182",
+        "datum": "2025-11-25",
+        "iznos_duguje": 695674.51,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 182",
+        "naziv_u_gk": "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "BOTOMEX",
+    "gk_nazivi": [
+      "BOTOMEX DOO BEOGRAD"
+    ],
+    "analitika_kod": "P-00554",
+    "ukupno_fakturisano_rsd": 2692338.63,
+    "ukupno_placeno_rsd": 3391864.0,
+    "razlika_rsd": -699525.37,
+    "status": "preplaceno",
+    "broj_transakcija": 10,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 5389.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-022",
+        "datum": "2025-02-04",
+        "iznos_duguje": 5389.41,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-022",
+        "datum": "2025-02-04",
+        "iznos_duguje": 11404.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-036",
+        "datum": "2025-02-25",
+        "iznos_duguje": 11404.8,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-036",
+        "datum": "2025-02-25",
+        "iznos_duguje": 789370.94,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-015",
+        "datum": "2025-02-28",
+        "iznos_duguje": 688121.37,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-010",
+        "datum": "2024-10-09",
+        "iznos_duguje": 536396.76,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-246/6",
+        "datum": "2024-12-09",
+        "iznos_duguje": 536396.75,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-247",
+        "datum": "2024-12-10",
+        "iznos_duguje": 7840.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-035/4",
+        "datum": "2024-12-16",
+        "iznos_duguje": 800149.77,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "BOTOMEX DOO BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "BGASTIM",
+    "gk_nazivi": [
+      "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD"
+    ],
+    "analitika_kod": "P-00601",
+    "ukupno_fakturisano_rsd": 1347009.0,
+    "ukupno_placeno_rsd": 1347009.0,
+    "razlika_rsd": 0.0,
+    "status": "placeno_u_celosti",
+    "broj_transakcija": 6,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ190-063",
+        "datum": "2025-06-10",
+        "iznos_duguje": 88920.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-085",
+        "datum": "2025-07-11",
+        "iznos_duguje": 337920.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 085",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-145",
+        "datum": "2025-10-03",
+        "iznos_duguje": 8952.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 145",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-145",
+        "datum": "2025-10-03",
+        "iznos_duguje": 44916.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 145",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-185/2",
+        "datum": "2025-11-28",
+        "iznos_duguje": 47760.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 185",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "ID190-030",
+        "datum": "2024-12-02",
+        "iznos_duguje": 818541.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "NENAD RANDJELOVIC PR BG AS TIM PVS BEOGRAD",
+        "racun_konto": "4350.0"
+      }
+    ]
+  },
+  {
+    "dobavljac_ime": "MIOS",
+    "gk_nazivi": [
+      "MIOS MOBILITY DOO"
+    ],
+    "analitika_kod": "P-00629",
+    "ukupno_fakturisano_rsd": 0,
+    "ukupno_placeno_rsd": 8863228.01,
+    "razlika_rsd": -8863228.01,
+    "status": "preplaceno",
+    "broj_transakcija": 145,
+    "transakcije": [
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 204850.05,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ160-007",
+        "datum": "2025-01-14",
+        "iznos_duguje": 49063.74,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-027",
+        "datum": "2025-02-11",
+        "iznos_duguje": 33007.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-046",
+        "datum": "2025-03-11",
+        "iznos_duguje": 102379.03,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ160-067",
+        "datum": "2025-04-08",
+        "iznos_duguje": 102401.84,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-042",
+        "datum": "2025-05-09",
+        "iznos_duguje": 102385.99,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 042",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-066",
+        "datum": "2025-06-13",
+        "iznos_duguje": 102401.76,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-083",
+        "datum": "2025-07-08",
+        "iznos_duguje": 102369.88,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 083",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-105/4",
+        "datum": "2025-08-08",
+        "iznos_duguje": 102369.36,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 105",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 140605.56,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-107/4",
+        "datum": "2025-08-12",
+        "iznos_duguje": 16873.44,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 107",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 201332.35,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-115",
+        "datum": "2025-08-22",
+        "iznos_duguje": 140603.4,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 115",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 24159.3,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-120",
+        "datum": "2025-08-29",
+        "iznos_duguje": 16872.0,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 120",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 102370.67,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 7048.78,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-127",
+        "datum": "2025-09-09",
+        "iznos_duguje": 19931.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 127",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 54634.61,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 5421.7,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 32527.33,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-152",
+        "datum": "2025-10-14",
+        "iznos_duguje": 102392.96,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 152",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-162",
+        "datum": "2025-10-28",
+        "iznos_duguje": 958121.45,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-162",
+        "datum": "2025-10-28",
+        "iznos_duguje": 206949.07,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "nan",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "2285.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 54652.84,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 102427.1,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 7450.24,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 34481.63,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 32538.18,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-171",
+        "datum": "2025-11-07",
+        "iznos_duguje": 25191.48,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 171",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-175",
+        "datum": "2025-11-14",
+        "iznos_duguje": 4638.47,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 175",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-175",
+        "datum": "2025-11-14",
+        "iznos_duguje": 21471.71,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 175",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 47985.66,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 54721.82,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 32579.26,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 222158.2,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      },
+      {
+        "broj_naloga": "IZ190-190/4",
+        "datum": "2025-12-05",
+        "iznos_duguje": 102556.46,
+        "iznos_potrazuje": 0.0,
+        "eksterni_dok": "nan",
+        "opis": "Izvod br. 190",
+        "naziv_u_gk": "MIOS MOBILITY DOO",
+        "racun_konto": "4350.0"
+      }
+    ]
+  }
+]
