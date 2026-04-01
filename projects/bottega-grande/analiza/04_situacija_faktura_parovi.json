@@ -1,0 +1,17 @@
+[
+  {
+    "folder": "A_EBC",
+    "situacije": [
+      "A_EBC/A_sit_II_privremena.pdf",
+      "A_EBC/A_sit_I_privremena.pdf",
+      "A_EBC/A_sit_okoncana.pdf"
+    ],
+    "fakture": [
+      "A_EBC/A_fak_II_2025-79.pdf",
+      "A_EBC/A_fak_I_2024-44.pdf",
+      "A_EBC/A_fak_okoncana_2025-106.pdf"
+    ],
+    "rizik": "VISOK - potencijalno duplo knjiženje",
+    "napomena": "Situacija i faktura za isti posao. Proveriti da iznosi odgovaraju."
+  }
+]

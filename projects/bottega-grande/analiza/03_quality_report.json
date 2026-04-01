@@ -1,0 +1,12 @@
+{
+  "total": 190,
+  "text_based": 190,
+  "partial_text": 0,
+  "scanned": 0,
+  "error_or_unknown": 0,
+  "recommendation": {
+    "text_based": "Koristiti pdfminer/pypdf2 za ekstrakciju",
+    "partial_text": "Probati pdfminer, po potrebi OCR",
+    "scanned": "Potreban OCR (tesseract/Azure Document Intelligence)"
+  }
+}

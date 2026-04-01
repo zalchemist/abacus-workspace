@@ -1,0 +1,305 @@
+{
+  "00_Ugovorna_osnova": {
+    "files": 3,
+    "types": {
+      "ugovor": 1,
+      "nepoznato": 2
+    },
+    "text_quality": {
+      "text-based": 3
+    }
+  },
+  "A_EBC": {
+    "files": 6,
+    "types": {
+      "e-faktura": 3,
+      "situacija": 3
+    },
+    "text_quality": {
+      "text-based": 6
+    }
+  },
+  "B_Oprema/B01_Gastronaut_ledomat": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B02_Gastronaut_kuhinja": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B03_Gastronaut_okoncana": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B04_Gastronaut_avans": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B05_Gastronaut_glavna": {
+    "files": 2,
+    "types": {
+      "e-faktura": 2
+    },
+    "text_quality": {
+      "text-based": 2
+    }
+  },
+  "B_Oprema/B07_Gastronaut_posude": {
+    "files": 3,
+    "types": {
+      "e-faktura": 3
+    },
+    "text_quality": {
+      "text-based": 3
+    }
+  },
+  "B_Oprema/B08_Gastronaut_grejne_ploce": {
+    "files": 1,
+    "types": {
+      "nepoznato": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B09_Gastpro_RATIONAL": {
+    "files": 4,
+    "types": {
+      "e-faktura": 3,
+      "faktura": 1
+    },
+    "text_quality": {
+      "text-based": 4
+    }
+  },
+  "B_Oprema/B10_Ugotehna_zamrzivac": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "B_Oprema/B11_CityCo_hauba": {
+    "files": 4,
+    "types": {
+      "e-faktura": 3,
+      "ponuda": 1
+    },
+    "text_quality": {
+      "text-based": 4
+    }
+  },
+  "B_Oprema/B12_CityCo_masina": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "C_MIOS": {
+    "files": 29,
+    "types": {
+      "ugovor": 29
+    },
+    "text_quality": {
+      "text-based": 29
+    }
+  },
+  "D_Razno/D01_Volans": {
+    "files": 21,
+    "types": {
+      "e-faktura": 21
+    },
+    "text_quality": {
+      "text-based": 21
+    }
+  },
+  "D_Razno/D02_BanKon": {
+    "files": 2,
+    "types": {
+      "e-faktura": 1,
+      "nepoznato": 1
+    },
+    "text_quality": {
+      "text-based": 2
+    }
+  },
+  "D_Razno/D03_Enmon": {
+    "files": 17,
+    "types": {
+      "e-faktura": 17
+    },
+    "text_quality": {
+      "text-based": 17
+    }
+  },
+  "D_Razno/D04_Uredidom": {
+    "files": 2,
+    "types": {
+      "avans": 1,
+      "faktura": 1
+    },
+    "text_quality": {
+      "text-based": 2
+    }
+  },
+  "D_Razno/D05_Floorimpact": {
+    "files": 14,
+    "types": {
+      "e-faktura": 14
+    },
+    "text_quality": {
+      "text-based": 14
+    }
+  },
+  "D_Razno/D06_TJMaxim": {
+    "files": 1,
+    "types": {
+      "e-faktura": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  },
+  "D_Razno/D07_Ensaco": {
+    "files": 3,
+    "types": {
+      "e-faktura": 3
+    },
+    "text_quality": {
+      "text-based": 3
+    }
+  },
+  "D_Razno/D08_RokTel": {
+    "files": 7,
+    "types": {
+      "e-faktura": 7
+    },
+    "text_quality": {
+      "text-based": 7
+    }
+  },
+  "D_Razno/D09_CWGBalkan": {
+    "files": 2,
+    "types": {
+      "e-faktura": 2
+    },
+    "text_quality": {
+      "text-based": 2
+    }
+  },
+  "D_Razno/D10_GDjordjevic": {
+    "files": 6,
+    "types": {
+      "faktura": 6
+    },
+    "text_quality": {
+      "text-based": 6
+    }
+  },
+  "D_Razno/D11_Minor": {
+    "files": 11,
+    "types": {
+      "e-faktura": 11
+    },
+    "text_quality": {
+      "text-based": 11
+    }
+  },
+  "D_Razno/D12_Uniprom": {
+    "files": 3,
+    "types": {
+      "e-faktura": 3
+    },
+    "text_quality": {
+      "text-based": 3
+    }
+  },
+  "D_Razno/D13_PMPElektro": {
+    "files": 5,
+    "types": {
+      "e-faktura": 5
+    },
+    "text_quality": {
+      "text-based": 5
+    }
+  },
+  "D_Razno/D14_Mison": {
+    "files": 12,
+    "types": {
+      "e-faktura": 12
+    },
+    "text_quality": {
+      "text-based": 12
+    }
+  },
+  "D_Razno/D15_97Energetika": {
+    "files": 6,
+    "types": {
+      "e-faktura": 6
+    },
+    "text_quality": {
+      "text-based": 6
+    }
+  },
+  "D_Razno/D16_Jelisavac": {
+    "files": 2,
+    "types": {
+      "e-faktura": 2
+    },
+    "text_quality": {
+      "text-based": 2
+    }
+  },
+  "D_Razno/D17_Botomex": {
+    "files": 10,
+    "types": {
+      "e-faktura": 10
+    },
+    "text_quality": {
+      "text-based": 10
+    }
+  },
+  "D_Razno/D18_BGASTim": {
+    "files": 7,
+    "types": {
+      "e-faktura": 7
+    },
+    "text_quality": {
+      "text-based": 7
+    }
+  },
+  "root": {
+    "files": 1,
+    "types": {
+      "nepoznato": 1
+    },
+    "text_quality": {
+      "text-based": 1
+    }
+  }
+}

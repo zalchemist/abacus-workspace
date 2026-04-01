@@ -1,0 +1,37 @@
+{
+  "A_EBC": {
+    "broj_dokumenata_za_knjizenje": 3,
+    "broj_avansnih_racuna": 0,
+    "ukupna_osnovica_rsd": 250120271.91,
+    "ukupan_pdv_rsd": 14453943.42,
+    "ukupno_sa_pdv_rsd": 264574215.33,
+    "situacije_iskljucene": 3,
+    "dok_bez_iznosa": 0,
+    "napomena": "Samo e-fakture, situacije i avansi iskljuceni iz totala"
+  },
+  "B_Oprema": {
+    "broj_dokumenata_za_knjizenje": 11,
+    "broj_avansnih_racuna": 7,
+    "ukupna_osnovica_rsd": 6805128.38,
+    "ukupan_pdv_rsd": 1361025.64,
+    "ukupno_sa_pdv_rsd": 8166154.02,
+    "situacije_iskljucene": 0,
+    "dok_bez_iznosa": 0,
+    "napomena": "Samo e-fakture, situacije i avansi iskljuceni iz totala"
+  },
+  "C_MIOS": {
+    "broj_dokumenata_za_knjizenje": 29,
+    "napomena": "Vrednosti u EUR - lizing ugovori"
+  },
+  "D_Razno": {
+    "broj_dokumenata_za_knjizenje": 100,
+    "broj_avansnih_racuna": 30,
+    "ukupna_osnovica_rsd": 10773945.49,
+    "ukupan_pdv_rsd": 1927967.56,
+    "ukupno_sa_pdv_rsd": 37786636.86,
+    "situacije_iskljucene": 0,
+    "dok_bez_iznosa": 1,
+    "napomena": "Samo e-fakture, situacije i avansi iskljuceni iz totala"
+  },
+  "UKUPNO_RSD": 310527006.21
+}

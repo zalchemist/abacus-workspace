@@ -1,0 +1,38 @@
+{
+  "A": {
+    "sekcija_naziv": "EBC Adaptacija",
+    "osnovica_rsd": 250120271.91,
+    "pdv_rsd": 14453943.42,
+    "ukupno_sa_pdv_rsd": 264574215.33,
+    "osnovica_eur": 2134132.012883959,
+    "napomena": "3 fakture, 18 grupa radova",
+    "broj_stavki": 3
+  },
+  "B": {
+    "sekcija_naziv": "Oprema",
+    "osnovica_rsd": 11551430.75,
+    "pdv_rsd": 2310286.15,
+    "ukupno_sa_pdv_rsd": 13861716.9,
+    "osnovica_eur": 98561.69581911263,
+    "napomena": "11 faktura, 8 dobavljača",
+    "broj_stavki": 12
+  },
+  "C": {
+    "sekcija_naziv": "MIOS",
+    "osnovica_rsd": 66266657.92400001,
+    "pdv_rsd": null,
+    "ukupno_sa_pdv_rsd": null,
+    "osnovica_eur": 565415.17,
+    "napomena": "29 ugovora",
+    "broj_stavki": 29
+  },
+  "D": {
+    "sekcija_naziv": "Razno",
+    "osnovica_rsd": 46972160.9,
+    "pdv_rsd": 3249274.01,
+    "ukupno_sa_pdv_rsd": 50221434.91,
+    "osnovica_eur": 400786.3558020478,
+    "napomena": "100 faktura, 18 dobavljača",
+    "broj_stavki": 100
+  }
+}

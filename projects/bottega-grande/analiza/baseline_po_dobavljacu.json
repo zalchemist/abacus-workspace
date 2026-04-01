@@ -1,0 +1,911 @@
+{
+  "EBC S New Construction Technology": {
+    "ukupna_osnovica_rsd": 250120271.91,
+    "ukupno_fakturisano_rsd": 264574215.33,
+    "broj_faktura": 3,
+    "fakture": [
+      {
+        "broj": "2024-44",
+        "iznos": 151661020.49,
+        "sekcija": "A_EBC"
+      },
+      {
+        "broj": "2025-79",
+        "iznos": 68402596.84,
+        "sekcija": "A_EBC"
+      },
+      {
+        "broj": "2025-106",
+        "iznos": 44510598.0,
+        "sekcija": "A_EBC"
+      }
+    ]
+  },
+  "GASTRONAUT": {
+    "ukupna_osnovica_rsd": 5684434.1,
+    "ukupno_fakturisano_rsd": 6821320.92,
+    "broj_faktura": 6,
+    "fakture": [
+      {
+        "broj": "7541/2024",
+        "iznos": 129979.2,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "7511/2024",
+        "iznos": 908900.4,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "6960/2024",
+        "iznos": 1945803.6,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "1983/2025",
+        "iznos": 3640694.4,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "2178/2025",
+        "iznos": 62374.32,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "2690/2025",
+        "iznos": 133569.0,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "GASTRONAUT NOVI SAD": {
+    "ukupna_osnovica_rsd": 538810.0,
+    "ukupno_fakturisano_rsd": 646572.0,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "3060/2025",
+        "iznos": 646572.0,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "GASTPRO DOO, BEOGRAD (ZEMUN)": {
+    "ukupna_osnovica_rsd": 3825936.65,
+    "ukupno_fakturisano_rsd": 4591123.98,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "25-0675",
+        "iznos": 4591123.98,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "UGOTEHNA 037 DOO KRUSEVAC": {
+    "ukupna_osnovica_rsd": 342200.0,
+    "ukupno_fakturisano_rsd": 410640.0,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "FK-25-833",
+        "iznos": 410640.0,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "CITYCO D.O.O.": {
+    "ukupna_osnovica_rsd": 1160050.0,
+    "ukupno_fakturisano_rsd": 1392060.0,
+    "broj_faktura": 2,
+    "fakture": [
+      {
+        "broj": "ifvp-841/25",
+        "iznos": 937920.0,
+        "sekcija": "B_Oprema"
+      },
+      {
+        "broj": "ifvp-3000/24",
+        "iznos": 454140.0,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "N/A": {
+    "ukupna_osnovica_rsd": 11551430.75,
+    "ukupno_fakturisano_rsd": 13861716.9,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": null,
+        "iznos": 13861716.9,
+        "sekcija": "B_Oprema"
+      }
+    ]
+  },
+  "MIOS": {
+    "ukupna_osnovica_rsd": 0,
+    "ukupno_fakturisano_rsd": 0,
+    "broj_faktura": 29,
+    "fakture": [
+      {
+        "broj": "457/2025",
+        "iznos": 41515.61,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "493/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "494/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "495/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "496/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "497/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "498/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "501/2025",
+        "iznos": 21794.68,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "502/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "503/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "504/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "505/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "506/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "507/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "508/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "509/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "510/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "511/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "512/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "513/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "514/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "515/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "516/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "517/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "518/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "519/2025",
+        "iznos": 13482.96,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "532/2025",
+        "iznos": 91907.98,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "534/2025",
+        "iznos": 19851.84,
+        "sekcija": "C_MIOS"
+      },
+      {
+        "broj": "552/2025",
+        "iznos": 66754.02,
+        "sekcija": "C_MIOS"
+      }
+    ]
+  },
+  "Volans Design Hub doo Beograd": {
+    "ukupna_osnovica_rsd": 6282439.140000001,
+    "ukupno_fakturisano_rsd": 7538926.97,
+    "broj_faktura": 17,
+    "fakture": [
+      {
+        "broj": "04-24",
+        "iznos": 192551.04,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "03-24",
+        "iznos": 192650.82,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "21-24",
+        "iznos": 120572.27,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "1-24",
+        "iznos": 1482529.87,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2-24",
+        "iznos": 1570246.93,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "14-24",
+        "iznos": 370133.58,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "15-24",
+        "iznos": 224785.73,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "16-24",
+        "iznos": 723753.85,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "17-24",
+        "iznos": 252883.94,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "20-1/24",
+        "iznos": 1061642.64,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "11-24",
+        "iznos": 192428.56,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "05-24",
+        "iznos": 192531.64,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "19.1-24",
+        "iznos": 192384.49,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "23-24",
+        "iznos": 192486.1,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "08-24",
+        "iznos": 192514.87,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "18-24",
+        "iznos": 192438.91,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-24",
+        "iznos": 192391.73,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "DUŠAN BANJANIN PR INŽENJERSKE DELATNOSTI I TEHNIČKO SAVETOVANJE BAN.KON BEOGRAD": {
+    "ukupna_osnovica_rsd": 158085.0,
+    "ukupno_fakturisano_rsd": 158085.0,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "24/R-23",
+        "iznos": 158085.0,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "ENMON DOO, BEOGRAD (VOŽDOVAC)": {
+    "ukupna_osnovica_rsd": 981114.33,
+    "ukupno_fakturisano_rsd": 1177337.19,
+    "broj_faktura": 10,
+    "fakture": [
+      {
+        "broj": "24-3266-0000091",
+        "iznos": 315566.54,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-3266-0000079",
+        "iznos": 41098.51,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-3266-0000081",
+        "iznos": 103581.69,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-3266-0000098",
+        "iznos": 29453.72,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-3266-0000083",
+        "iznos": 42846.85,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-3266-0000021",
+        "iznos": 36070.5,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-3266-0000007",
+        "iznos": 181512.1,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-3266-0000010",
+        "iznos": 175724.67,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-3266-0000096",
+        "iznos": 202393.07,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-3266-0000013",
+        "iznos": 49089.54,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "STEFAN IGNJATOVIC PREDUZETNIK UREDI DOM": {
+    "ukupna_osnovica_rsd": 3010066.55,
+    "ukupno_fakturisano_rsd": 3010066.55,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "Okončani račun po ugovoru 100817",
+        "iznos": 3010066.55,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "FLOORIMPACT DOO Beograd": {
+    "ukupna_osnovica_rsd": 8817057.51,
+    "ukupno_fakturisano_rsd": 9021205.000000002,
+    "broj_faktura": 13,
+    "fakture": [
+      {
+        "broj": "10/24",
+        "iznos": 100080.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24/24",
+        "iznos": 12000.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "07/25",
+        "iznos": 3697826.95,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "5/24",
+        "iznos": 81864.77,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "10/25",
+        "iznos": 2194163.61,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "13/24",
+        "iznos": 60000.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "7/24",
+        "iznos": 21600.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "3/24",
+        "iznos": 166658.4,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "56/24",
+        "iznos": 634227.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "20/25",
+        "iznos": 635880.23,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "63/24",
+        "iznos": 729932.5,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "05/25",
+        "iznos": 538516.8,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "57/25",
+        "iznos": 148454.74,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "TJ MAXIM DOO BEOGRAD": {
+    "ukupna_osnovica_rsd": 220200.0,
+    "ukupno_fakturisano_rsd": 264240.0,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "11-965/2025",
+        "iznos": 264240.0,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "ENSACO Solutions DOO Beograd-Voždovac": {
+    "ukupna_osnovica_rsd": 849172.94,
+    "ukupno_fakturisano_rsd": 1019007.53,
+    "broj_faktura": 3,
+    "fakture": [
+      {
+        "broj": "25/06-09.1-BTG",
+        "iznos": 118974.41,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25/09-10.1-3075-BTG",
+        "iznos": 449873.76,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25/10-23.1-3075-BTG",
+        "iznos": 450159.36,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "НИКОЛА РОКСАНДИЋ ПР ПОСТАВЉАЊЕ ЕЛЕКТРИЧНИХ ИНСТАЛАЦИЈА И ОПРЕМЕ РОКТЕЛ УГРИНОВЦИ": {
+    "ukupna_osnovica_rsd": 3666203.6,
+    "ukupno_fakturisano_rsd": 3735538.6,
+    "broj_faktura": 6,
+    "fakture": [
+      {
+        "broj": "2025-2",
+        "iznos": 1584864.6,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2025-26",
+        "iznos": 983343.37,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2025-13",
+        "iznos": 66975.6,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2024-63",
+        "iznos": 84240.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2024-75",
+        "iznos": 751320.63,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2024-76",
+        "iznos": 264794.4,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "CWG BALKAN D.O.O. BEOGRAD": {
+    "ukupna_osnovica_rsd": 821508.04,
+    "ukupno_fakturisano_rsd": 985809.65,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "if-1717/24",
+        "iznos": 985809.65,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "GORAN DJORDJEVIĆ PR DJORDJEVIĆ ELEKTRO": {
+    "ukupna_osnovica_rsd": 1909939.0,
+    "ukupno_fakturisano_rsd": 1909939.0,
+    "broj_faktura": 6,
+    "fakture": [
+      {
+        "broj": "9 2025",
+        "iznos": 477910.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "10 2025",
+        "iznos": 281320.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "2 2025",
+        "iznos": 157100.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "3 2025",
+        "iznos": 334740.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "7 2025",
+        "iznos": 355500.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "11 /2024",
+        "iznos": 303369.0,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "PREDUZEĆE ZA SPOLJNU I UNUTRAŠNJU TRGOVINU, PROIZVODNJU I USLUGE U PROMETU ROBOM MINOR DRUŠTVO SA OGRANIČENOM ODGOVORNOŠĆU BEOGRAD (ZEMUN)": {
+    "ukupna_osnovica_rsd": 115145.90999999997,
+    "ukupno_fakturisano_rsd": 138175.08,
+    "broj_faktura": 11,
+    "fakture": [
+      {
+        "broj": "IF25-4345",
+        "iznos": 38609.52,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-2374",
+        "iznos": 10226.83,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-7219",
+        "iznos": 3821.22,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-7684",
+        "iznos": 51100.32,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF24-29510",
+        "iznos": 9446.88,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-8092",
+        "iznos": 2336.87,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-0826",
+        "iznos": 2695.5,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF24-30054",
+        "iznos": 672.34,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF25-8237",
+        "iznos": 10174.82,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF24-27942",
+        "iznos": 7905.26,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "IF24-30595",
+        "iznos": 1185.52,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "UNIPROM d.o.o. Beograd": {
+    "ukupna_osnovica_rsd": 39156.45,
+    "ukupno_fakturisano_rsd": 46987.740000000005,
+    "broj_faktura": 2,
+    "fakture": [
+      {
+        "broj": "RB21946/24",
+        "iznos": 41509.44,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "RB00248/25",
+        "iznos": 5478.3,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "PMP-ELEKTRO DOO": {
+    "ukupna_osnovica_rsd": 3604313.1399999997,
+    "ukupno_fakturisano_rsd": 3653816.1399999997,
+    "broj_faktura": 4,
+    "fakture": [
+      {
+        "broj": "FM-0312-2025",
+        "iznos": 918096.22,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "FM-0123-2025",
+        "iznos": 147444.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "P-0026-2025",
+        "iznos": 149574.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "FM-661-2024",
+        "iznos": 2438701.92,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "MISON DOO": {
+    "ukupna_osnovica_rsd": 2159088.0,
+    "ukupno_fakturisano_rsd": 2590905.6,
+    "broj_faktura": 7,
+    "fakture": [
+      {
+        "broj": "24-17546-182431",
+        "iznos": 1682878.8,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-8324-197538",
+        "iznos": 9958.8,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-17923-183106",
+        "iznos": 563223.6,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-11659-202695",
+        "iznos": 4800.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-8751-198183",
+        "iznos": 9958.8,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-2356-188671",
+        "iznos": 71978.4,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-1102-186965",
+        "iznos": 248107.2,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "97 ENERGETIKA-TERMOTEHNIKA DOO BEOGRAD": {
+    "ukupna_osnovica_rsd": 10016375.46,
+    "ukupno_fakturisano_rsd": 10112297.93,
+    "broj_faktura": 4,
+    "fakture": [
+      {
+        "broj": "F-046156-2025",
+        "iznos": 1987526.86,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "KF-016166-2025",
+        "iznos": 1746732.42,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "KF-357030-2025",
+        "iznos": 575534.83,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "F-936156-2024",
+        "iznos": 5802503.82,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "JELISAVAC KLIMATIZACIJA COMPANY DOO BEOGRAD": {
+    "ukupna_osnovica_rsd": 819749.3,
+    "ukupno_fakturisano_rsd": 819749.3,
+    "broj_faktura": 1,
+    "fakture": [
+      {
+        "broj": "74-2025",
+        "iznos": 819749.3,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "BOTOMEX PREDUZEĆE ZA TRGOVINU I USLUGE DOO, BEOGRAD": {
+    "ukupna_osnovica_rsd": 2243615.53,
+    "ukupno_fakturisano_rsd": 2692338.63,
+    "broj_faktura": 6,
+    "fakture": [
+      {
+        "broj": "382A-10/24",
+        "iznos": 1072793.51,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "393-11/24",
+        "iznos": 7840.8,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "452-12/24",
+        "iznos": 10778.84,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "03-01/25",
+        "iznos": 10778.84,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "24-01/25",
+        "iznos": 1578741.84,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "29-01/25",
+        "iznos": 11404.8,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "NENAD RANĐELOVIĆ PR POSTAVLJANJE VODOVODNIH SISTEMA BG AS TIM BEOGRAD": {
+    "ukupna_osnovica_rsd": 1174241.0,
+    "ukupno_fakturisano_rsd": 1245381.0,
+    "broj_faktura": 3,
+    "fakture": [
+      {
+        "broj": "24-RN0024",
+        "iznos": 818541.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-RN002000015",
+        "iznos": 337920.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-RN002000011",
+        "iznos": 88920.0,
+        "sekcija": "D_Razno"
+      }
+    ]
+  },
+  "BG AS TIM": {
+    "ukupna_osnovica_rsd": 84690.0,
+    "ukupno_fakturisano_rsd": 101628.0,
+    "broj_faktura": 3,
+    "fakture": [
+      {
+        "broj": "25-RN002000023",
+        "iznos": 47760.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-RN002000020",
+        "iznos": 44916.0,
+        "sekcija": "D_Razno"
+      },
+      {
+        "broj": "25-RN002000021",
+        "iznos": 8952.0,
+        "sekcija": "D_Razno"
+      }
+    ]
+  }
+}
