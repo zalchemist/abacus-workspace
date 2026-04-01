@@ -9,6 +9,11 @@ Agent može da:
 2. Odabere odgovarajući chatbot prema temi
 3. Pozove API sa odgovarajućim credentials
 
+
+## Lokalna tajna konfiguracija
+
+Versioned fajlovi vise ne sadrze deployment tokene. Lokalno napravi `chatbots/local_secrets.json` na osnovu `chatbots/local_secrets.example.json` i nikada ga nemoj commit-ovati.
+
 ## Dostupni chatbotovi
 
 | Naziv | Tema | Deployment ID |
@@ -19,11 +24,14 @@ Agent može da:
 ## API poziv
 
 ```python
+import json
+from pathlib import Path
 from abacusai import ApiClient
 
+local_secrets = json.loads(Path('chatbots/local_secrets.json').read_text())
 client = ApiClient(api_key="<API_KEY>")
 response = client.get_chat_response(
-    deployment_token='<TOKEN_IZ_REGISTRY>',
+    deployment_token=local_secrets['<BOT_ID>']['deployment_token'],
     deployment_id='<ID_IZ_REGISTRY>',
     messages=[{'is_user': True, 'text': 'Pitanje'}]
 )

@@ -2,7 +2,7 @@
 
 ## Osnovne informacije
 - **Deployment ID:** 14e982c370
-- **Deployment Token:** aa12e1f29bf945c8a5fa0ae203873ff2
+- **Deployment Token:** cuva se lokalno u `chatbots/local_secrets.json` (nije versioned)
 - **Model:** Claude V4.5 Sonnet
 - **Status:** Active
 
@@ -26,8 +26,13 @@ Koristi za slanje značajnih update-a.
 
 ## Primer korišćenja
 ```python
+import json
+from pathlib import Path
+
+local_secrets = json.loads(Path('chatbots/local_secrets.json').read_text())
+
 response = client.get_chat_response(
-    deployment_token='aa12e1f29bf945c8a5fa0ae203873ff2',
+    deployment_token=local_secrets['github-workspace-assistant']['deployment_token'],
     deployment_id='14e982c370',
     messages=[{
         'is_user': True,

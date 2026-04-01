@@ -2,7 +2,7 @@
 
 ## Osnovne informacije
 - **Deployment ID:** 1127df3f3a
-- **Deployment Token:** 3f07cef6548d4c1c99925bb65c41a239
+- **Deployment Token:** cuva se lokalno u `chatbots/local_secrets.json` (nije versioned)
 - **Model:** Claude V4.5 Sonnet
 - **Document Retriever ID:** 1088ad145a
 - **Status:** Active
@@ -20,8 +20,13 @@ Ekspert za:
 
 ## Primer korišćenja
 ```python
+import json
+from pathlib import Path
+
+local_secrets = json.loads(Path('chatbots/local_secrets.json').read_text())
+
 response = client.get_chat_response(
-    deployment_token='3f07cef6548d4c1c99925bb65c41a239',
+    deployment_token=local_secrets['abacus-knowledge-brain']['deployment_token'],
     deployment_id='1127df3f3a',
     messages=[{
         'is_user': True,
