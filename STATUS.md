@@ -1,5 +1,5 @@
 # Status radnog prostora
-> Poslednje ažuriranje: 2026-03-31
+> Poslednje ažuriranje: 2026-04-01
 
 ## Aktivni projekti
 
@@ -20,6 +20,12 @@
 ---
 
 ## Poslednje izmene
+
+### 2026-04-01 - Kreiranje BizniSoft DB Analyst agenta
+- **Urađeno:** Kreiran custom agent `.claude/agents/myCustom_agent.agent.md` (biznisoft-db-analyst) za autonomnu analizu BizniSoft ERP baza podataka
+- **Rezultat:** Agent pokriva import dump-ova, SQL analize, otkrivanje anomalija, izmenu podataka i preporuke za implementaciju softverskih rešenja
+- **Fajlovi:** `.claude/agents/myCustom_agent.agent.md`, `chatbots/biznisoft-db-analyst/README.md`, `chatbots/registry.json`
+- **Sledeće:** Podesiti `deployment_id` i `deployment_token` u registry.json kada se agent deployuje
 
 ### 2026-03-31 - Pojasnjenje poruke o merge-u i brisanju grane
 - **Urađeno:** Dodato objašnjenje GitHub poruke o uspešnom merge-u i bezbednom brisanju grane
