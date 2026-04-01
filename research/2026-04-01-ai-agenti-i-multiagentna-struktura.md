@@ -17,6 +17,7 @@
 7. [Obrasci orkestracije](#7-obrasci-orkestracije)
 8. [Alati i frejmvorci](#8-alati-i-frejmvorci)
 9. [Primenljivost na naš sistem (Abacus + Claw)](#9-primenljivost-na-naš-sistem-abacus--claw)
+10. [Cursor kao platforma za agente](#10-cursor-kao-platforma-za-agente)
 
 ---
 
@@ -533,6 +534,234 @@ Claw → agent (odgovor sa kontekstom):
 
 ---
 
+---
+
+## 10. Cursor kao platforma za agente
+
+Da — u Cursor-u **mogu da se prave i koriste agenti**. Cursor nije samo editor koda — on je platforma sa ugrađenim agentskim sistemom koji uključuje lokalne agente, cloud agente, subagente i automatizacije.
+
+### 10.1 Šta Cursor nudi za agente
+
+| Komponenta | Šta radi | Gde se konfiguriše |
+|------------|----------|-------------------|
+| **Agent Mode** | Autonomno izvršavanje zadataka (fajlovi, terminal, codebase) | Composer panel → Agent mode |
+| **Rules** | Stalna uputstva za ponašanje agenta | `.cursor/rules/` (`.mdc` fajlovi) |
+| **AGENTS.md** | Markdown instrukcija za agenta na nivou projekta | Root repozitorijuma |
+| **Skills** | Dinamička znanja — učitavaju se samo kad trebaju | `SKILL.md` fajlovi |
+| **MCP (Model Context Protocol)** | Povezivanje sa eksternim servisima | `.cursor/mcp.json` |
+| **Subagenti** | Specijalizovani pod-agenti za specifične zadatke | Ugrađeni + `.cursor/agents/` |
+| **Cloud Agenti** | Autonomni agenti u oblaku koji rade u pozadini | Cursor Dashboard |
+| **Automacije** | Agenti pokretani triggerima (cron, GitHub, Slack, webhook) | Cursor Dashboard |
+
+### 10.2 Šta je neophodno imati operativno
+
+#### Minimum (lokalni Agent Mode)
+
+Za osnovni rad sa agentom u Cursor-u:
+
+| Zahtev | Detalj |
+|--------|--------|
+| **Cursor Pro ili Business plan** | Agent mode zahteva plaćenu pretplatu |
+| **Repozitorijum** | Agent radi nad kodom u otvorenom projektu |
+| **Uključen Agent Mode** | Settings → Features → Agent → Enable |
+| **Auto-run terminal** | Settings → Features → Agent → Auto-run terminal commands |
+
+Ovo je dovoljno da agent čita fajlove, piše kod, izvršava komande i iterira dok ne završi zadatak.
+
+#### Za Cloud Agente (pozadinski rad)
+
+| Zahtev | Detalj |
+|--------|--------|
+| **GitHub konekcija** | Repozitorijum mora biti na GitHub-u |
+| **Pro ili Business plan** | Cloud agenti su premium funkcionalnost |
+| **AGENTS.md** | Instrukcije za agenta koji radi bez tvog prisustva |
+| **Secreti** | Cursor Dashboard → Cloud Agents → Secrets (za API ključeve, tokene) |
+
+Cloud agent klonira tvoj repo, radi autonomno u sandbox-u, i kreira Pull Request sa rezultatima.
+
+#### Za MCP integracije (eksterni alati)
+
+| Zahtev | Detalj |
+|--------|--------|
+| **`.cursor/mcp.json`** | Konfiguracija MCP servera u projektu |
+| **API ključevi/tokeni** | Za svaki servis koji povezuješ |
+| **MCP server** | Lokalni (npx komanda) ili remote (URL) |
+
+Primer MCP konfiguracije:
+
+```json
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server"],
+      "env": {
+        "SUPABASE_URL": "https://xxx.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "tvoj-ključ"
+      }
+    },
+    "slack": {
+      "url": "https://mcp.slack.com/sse",
+      "headers": {
+        "Authorization": "Bearer tvoj-slack-token"
+      }
+    }
+  }
+}
+```
+
+#### Za automatizacije (always-on agenti)
+
+| Zahtev | Detalj |
+|--------|--------|
+| **Business plan** | Automatizacije su enterprise funkcionalnost |
+| **Trigger konfiguracija** | Cron raspored, GitHub event, Slack poruka, webhook, ili Linear event |
+| **MCP serveri** | Konfigurisani u Cloud Agents Dashboard-u |
+
+### 10.3 Cursor-ov multiagentni sistem (subagenti)
+
+Cursor ima ugrađen multiagentni sistem — **glavni agent** može da pokrene **subagente** za specifične zadatke:
+
+```
+┌──────────────────────────────────────┐
+│          GLAVNI AGENT                │
+│  (prima tvoj zahtev, planira, deli)  │
+├──────────┬───────────┬───────────────┤
+│ Explore  │   Bash    │   Browser     │
+│ subagent │ subagent  │   subagent    │
+│          │           │               │
+│ Pretražu-│ Izvršava  │ Kontroliše   │
+│ je code- │ niz shell │ browser za   │
+│ base     │ komandi   │ testiranje   │
+└──────────┴───────────┴───────────────┘
+```
+
+**Tri ugrađena subagenta:**
+
+| Subagent | Namena | Kako radi |
+|----------|--------|-----------|
+| **Explore** | Brza pretraga codebase-a | Koristi brži model, 10x paralelnih pretraga |
+| **Bash** | Izvršavanje shell komandi | Izoluje verbose output od glavnog agenta |
+| **Browser** | Testiranje UI-ja | Kontroliše Chrome, pravi screenshot-ove |
+
+Ovi subagenti rade u **izolovanom kontekstnom prozoru** — njihov međurezultat ne zagađuje kontekst glavnog agenta. Glavni agent vidi samo finalni sumarni odgovor.
+
+#### Prilagođeni (custom) subagenti
+
+Mogu se praviti kao Markdown fajlovi sa YAML frontmatter-om:
+
+- **Projektni:** `.cursor/agents/moj-agent.md`
+- **Globalni:** `~/.cursor/agents/moj-agent.md`
+
+### 10.4 Rules — kako se „programira" ponašanje agenta
+
+Cursor koristi sistem pravila (Rules) koji funkcioniše kao **system prompt za agenta**. Pravila se čuvaju u `.cursor/rules/` folderu kao `.mdc` fajlovi.
+
+#### Tipovi pravila po načinu primene
+
+| Tip | Kada se primenjuje | Primer upotrebe |
+|-----|-------------------|-----------------|
+| **Always Apply** | U svakoj konverzaciji | Konvencije kodiranja, stil |
+| **Apply Intelligently** | Kad agent proceni da je relevantno | Domensko znanje |
+| **Apply to Files** | Samo za specifične fajlove (glob pattern) | `*.sql` → SQL konvencije |
+| **Apply Manually** | Samo kad se eksplicitno pozove sa `@` | Retko korišćene procedure |
+
+#### Hijerarhija prioriteta
+
+```
+1. Team Rules            (najviši prioritet)
+2. Project Rules         (.cursor/rules/)
+3. User Rules            (globalna podešavanja)
+4. Legacy Rules          (.cursorrules)
+5. AGENTS.md             (najniži prioritet)
+```
+
+#### Primer `.cursor/rules/sql-konvencije.mdc`
+
+```markdown
+---
+description: Pravila za rad sa SQL-om u BizniSoft bazi
+globs: ["*.sql", "**/*.sql"]
+alwaysApply: false
+---
+
+# SQL konvencije
+
+- Koristi `sudo mysql -u root` za pristup bazi
+- Baze: `opp` (master/šifarnici), `opp7102025` (transakcije)
+- Cross-database JOIN: `opp.tabela` JOIN `opp7102025.tabela`
+- Uvek koristi utf8mb4 charset
+- Datumi: FORMAT(datum, '%d.%m.%Y')
+```
+
+### 10.5 AGENTS.md — uputstvo za cloud agente
+
+`AGENTS.md` u root-u repozitorijuma je **instrukcija koju cloud agent čita pre nego što počne da radi**. Koristi se kad agent radi autonomno u pozadini (bez tvog prisustva).
+
+Naš `AGENTS.md` već sadrži:
+- kako pokrenuti MariaDB (non-systemd)
+- arhitekturu baza (`opp`, `opp7102025`)
+- ključne skripte
+- napomenu o performansama
+
+Ovo znači da kad Cloud Agent dobije zadatak vezan za naš repo, on **zna** kako da se poveže na bazu i gde su skripte, bez da mu ti to objašnjavaš.
+
+### 10.6 Automatizacije — agenti koji rade bez tebe
+
+Cursor Automations su agenti koji se pokreću na osnovu trigera:
+
+| Trigger | Primer |
+|---------|--------|
+| **Cron** | Svakog ponedeljka proveri dependency-je |
+| **GitHub PR otvoren** | Automatski review koda |
+| **GitHub push** | Pokreni lint/test suite |
+| **Slack poruka** | Nova poruka u kanalu → agent reaguje |
+| **Webhook** | Eksterni sistem pošalje HTTP zahtev |
+| **Linear issue** | Kreiran task → agent počinje implementaciju |
+
+Svaka automatizacija radi u **izolovanom sandbox-u** — klonira repo, uradi posao, i rezultat ostavi za tvoj pregled. Ne može direktno da zapiše u produkciju.
+
+### 10.7 Kompletna operativna lista za pokretanje
+
+```
+┌─────────────────────────────────────────────────────────┐
+│            OPERATIVNA CHECKLIST                         │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  OBAVEZNO (za bilo koji agent rad):                     │
+│  ☐ Cursor Pro ili Business pretplata                    │
+│  ☐ Agent Mode uključen u Settings                      │
+│  ☐ Repozitorijum otvoren u Cursor-u                    │
+│                                                         │
+│  ZA PRILAGOĐAVANJE AGENTA:                              │
+│  ☐ .cursor/rules/ folder sa .mdc pravilima              │
+│  ☐ AGENTS.md u root-u repozitorijuma                    │
+│  ☐ SKILL.md fajlovi za domensko znanje (opciono)        │
+│                                                         │
+│  ZA CLOUD AGENTE:                                       │
+│  ☐ GitHub repozitorijum (povezan sa Cursor-om)          │
+│  ☐ Secrets konfigurisani u Cursor Dashboard-u           │
+│  ☐ AGENTS.md sa uputstvima za autonoman rad             │
+│                                                         │
+│  ZA EKSTERNE INTEGRACIJE (MCP):                         │
+│  ☐ .cursor/mcp.json sa serverskim konfiguracijama       │
+│  ☐ API ključevi / tokeni za svaki servis                │
+│  ☐ MCP serveri instalirani (npx) ili dostupni (URL)     │
+│                                                         │
+│  ZA AUTOMATIZACIJE:                                     │
+│  ☐ Business plan                                        │
+│  ☐ Trigger konfiguracija (cron/GitHub/Slack/webhook)     │
+│  ☐ MCP serveri u Cloud Agents Dashboard-u               │
+│                                                         │
+│  ZA SUBAGENTE (CUSTOM):                                 │
+│  ☐ .cursor/agents/ folder sa .md definicijama           │
+│  ☐ YAML frontmatter sa konfiguracijom                   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Rezime
 
 | Pitanje | Odgovor |
@@ -544,6 +773,8 @@ Claw → agent (odgovor sa kontekstom):
 | Koji obrazac koristiti? | Hijerarhijski za kontrolu, Pipeline za sekvencijalne tokove, Hub-and-Spoke za routing |
 | Koji frejmvork? | Zavisi od potreba — OpenAI SDK za handoff, LangGraph za workflow, CrewAI za brzo, Abacus Claw za 24/7 |
 | Kako mi to koristimo? | Claw kao domaćin sa memorijom, DeepAgent kao izvršilac, specijalizovani botovi po domenima |
+| Može li u Cursor-u? | Da — Agent Mode, Cloud Agenti, subagenti, MCP integracije, automatizacije |
+| Šta je operativno neophodno? | Cursor Pro/Business + repo + Rules/AGENTS.md + MCP za integracije + Secrets za cloud agente |
 
 ---
 
@@ -556,4 +787,10 @@ Claw → agent (odgovor sa kontekstom):
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python)
 - [LangGraph vs CrewAI vs AutoGen: Choosing an Agent Framework in 2026](https://yoyo.bot/blog/langgraph-vs-crewai-vs-autogen-2026)
 - [Abacus AI / OpenClaw dokumentacija](https://docs.abacus.ai)
-- Interno: `chatbots/registry.json`, `Nova_Struktura_abacus.txt`, DeepAgent sesija 2026-04-01
+- [Cursor — Customizing Agents](https://cursor.com/learn/customizing-agents)
+- [Cursor — Subagents](https://cursor.com/docs/agent/subagents)
+- [Cursor — Rules](https://cursor.com/help/customization/rules)
+- [Cursor — MCP Integrations](https://cursor.com/help/customization/mcp)
+- [Cursor — Automations](https://cursor.com/docs/cloud-agent/automations)
+- [Cursor — Cloud Agents](https://cursor.com/help/ai-features/cloud-agents)
+- Interno: `chatbots/registry.json`, `Nova_Struktura_abacus.txt`, `AGENTS.md`, DeepAgent sesija 2026-04-01
