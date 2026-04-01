@@ -11,10 +11,11 @@ Agent može da:
 
 ## Dostupni chatbotovi
 
-| Naziv | Tema | Deployment ID |
-|-------|------|---------------|
-| GitHub Workspace Assistant | Biznisoft MySQL, Git operacije | 14e982c370 |
-| Abacus Knowledge Brain | Abacus.AI platforma, API | 1127df3f3a |
+| Naziv | Tema | Deployment ID | Status |
+|-------|------|---------------|--------|
+| GitHub Workspace Assistant | Biznisoft MySQL, Git operacije | 14e982c370 | Active |
+| Abacus Knowledge Brain | Abacus.AI platforma, API | 1127df3f3a | Active |
+| BizniSoft SQL Agent | BizniSoft SQL operacije, šifarnici, ERP | *(pending)* | Pending deployment |
 
 ## API poziv
 
