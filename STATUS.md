@@ -1,11 +1,12 @@
 # Status radnog prostora
-> Poslednje ažuriranje: 2026-03-31
+> Poslednje ažuriranje: 2026-04-01
 
 ## Aktivni projekti
 
 | Projekat | Status | Poslednja aktivnost | Sledeći korak |
 |----------|--------|---------------------|---------------|
 | biznisoft_skill_input | U TOKU | 2026-03-31 | Konsolidacija skills-a |
+| biznisoft-sql-agent | KREIRAN | 2026-04-01 | Deployment na Abacus.AI |
 
 ---
 
@@ -13,13 +14,18 @@
 
 | Repozitorijum | Status | Detalji | Sledeći korak |
 |---------------|--------|---------|---------------|
-| abacus-workspace | Otvoren PR (#18) | Draft: "Check for pending reviews in repositories" | Sačekati potvrdu/merge |
+| abacus-workspace | Otvoren PR | BizniSoft SQL Agent — kreiranje agenta | Sačekati potvrdu/merge |
 | abacus-skills | Nema otvorenih PR-ova | — | N/A |
 | abacus-skill-creator | Nema otvorenih PR-ova | — | N/A |
 
 ---
 
 ## Poslednje izmene
+
+### 2026-04-01 - Kreiranje BizniSoft SQL Agent chatbota
+- **Urađeno:** Dodan novi chatbot `biznisoft-sql-agent` u registry i dokumentaciju
+- **Rezultat:** `chatbots/biznisoft-sql-agent/README.md`, `chatbots/biznisoft-sql-agent/system-prompt.md`, `chatbots/registry.json` (v1.2)
+- **Sledeće:** Kreirati agenta na Abacus.AI platformi, uploadovati knowledge base, ažurirati deployment_id i deployment_token u registry.json
 
 ### 2026-03-31 - Pojasnjenje poruke o merge-u i brisanju grane
 - **Urađeno:** Dodato objašnjenje GitHub poruke o uspešnom merge-u i bezbednom brisanju grane
