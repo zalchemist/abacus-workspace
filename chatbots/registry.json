@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "updated": "2026-03-31",
+  "version": "1.2",
+  "updated": "2026-04-01",
   "chatbots": [
     {
       "id": "github-workspace-assistant",
@@ -27,6 +27,27 @@
       "protocol_tags": ["[DEEP_AGENT_QUERY]", "[DEEP_AGENT_REPORT]", "[DEEP_AGENT_UPDATE]"],
       "document_retriever_id": "1088ad145a",
       "tools": [],
+      "status": "active"
+    },
+    {
+      "id": "biznisoft-db-analyst",
+      "name": "BizniSoft DB Analyst",
+      "description": "Autonomni agent za import, analizu i izmenu BizniSoft ERP MySQL baza — uvidi, KPI, anomalije, SQL export/import i direktne izmene podataka",
+      "topics": ["biznisoft", "mysql", "mariadb", "sql", "erp", "analiza", "finansije", "robno", "import", "export"],
+      "deployment_id": "",
+      "deployment_token": "",
+      "has_knowledge_base": true,
+      "has_deep_agent_protocol": true,
+      "protocol_tags": ["[DEEP_AGENT_QUERY]", "[DEEP_AGENT_REPORT]", "[DEEP_AGENT_UPDATE]"],
+      "agent_file": ".claude/agents/myCustom_agent.agent.md",
+      "knowledge_sources": [
+        "projects/biznisoft_skill_input/knowledge/BIZNISOFT_MASTER_REFERENCE.md",
+        "projects/biznisoft_skill_input/knowledge/biznisoft_tables_reference.md",
+        "projects/biznisoft_skill_input/knowledge/biznisoft_opp_tables_reference.md",
+        "projects/biznisoft_skill_input/knowledge/biznisoft_stored_procedures.md",
+        "projects/biznisoft_skill_input/knowledge/implicit_relations.md"
+      ],
+      "tools": ["Bash", "Read", "Edit", "Grep", "Glob"],
       "status": "active"
     }
   ]
