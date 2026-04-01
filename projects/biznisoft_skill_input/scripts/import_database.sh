@@ -10,6 +10,8 @@ set -e
 
 DUMP_FILE="$1"
 DB_NAME="$2"
+FORCE_IMPORT="${FORCE_IMPORT:-0}"
+ERROR_LOG="/tmp/import_errors_${DB_NAME}.log"
 
 if [ -z "$DUMP_FILE" ] || [ -z "$DB_NAME" ]; then
     echo "Upotreba: $0 <dump_file> <database_name>"
@@ -19,6 +21,12 @@ fi
 
 if [ ! -f "$DUMP_FILE" ]; then
     echo "[ERROR] Dump fajl ne postoji: $DUMP_FILE"
+    exit 1
+fi
+
+# Ograničavamo ime baze na bezbedan podskup znakova radi robustnosti SQL komande.
+if ! [[ "$DB_NAME" =~ ^[A-Za-z0-9_]+$ ]]; then
+    echo "[ERROR] Neispravno ime baze: '$DB_NAME'. Dozvoljeno: slova, brojevi i underscore."
     exit 1
 fi
 
@@ -37,11 +45,17 @@ echo "[INFO] Kreiranje baze '$DB_NAME' ako ne postoji..."
 sudo mysql -u root -e "CREATE DATABASE IF NOT EXISTS \`$DB_NAME\` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;"
 echo "[OK] Baza '$DB_NAME' spremna."
 
-# 2. Import sa --force flagom (nastavlja uprkos greškama)
+# 2. Import dump-a
 echo "[INFO] Import u toku... (ovo može potrajati)"
 START_TIME=$(date +%s)
 
-sudo mysql -u root "$DB_NAME" --force < "$DUMP_FILE" 2>/tmp/import_errors_${DB_NAME}.log
+rm -f "$ERROR_LOG"
+if [ "$FORCE_IMPORT" = "1" ]; then
+    echo "[WARN] FORCE_IMPORT=1: import nastavlja i uprkos SQL greškama."
+    sudo mysql -u root "$DB_NAME" --force < "$DUMP_FILE" 2>"$ERROR_LOG"
+else
+    sudo mysql -u root "$DB_NAME" < "$DUMP_FILE" 2>"$ERROR_LOG"
+fi
 
 END_TIME=$(date +%s)
 DURATION=$((END_TIME - START_TIME))
@@ -54,9 +68,13 @@ echo "     Baza: $DB_NAME"
 echo "     Broj tabela: $TABLE_COUNT"
 
 # Prikaz grešaka ako postoje
-if [ -s "/tmp/import_errors_${DB_NAME}.log" ]; then
-    ERROR_COUNT=$(wc -l < "/tmp/import_errors_${DB_NAME}.log")
-    echo "     Upozorenja/greške: $ERROR_COUNT (detalji: /tmp/import_errors_${DB_NAME}.log)"
+if [ -s "$ERROR_LOG" ]; then
+    ERROR_COUNT=$(wc -l < "$ERROR_LOG")
+    echo "     Upozorenja/greške: $ERROR_COUNT (detalji: $ERROR_LOG)"
+    if grep -Eq "ERROR [0-9]+|^ERROR" "$ERROR_LOG"; then
+        echo "[ERROR] Detektovane SQL greške tokom importa. Proveri log: $ERROR_LOG"
+        exit 1
+    fi
 fi
 
 echo ""

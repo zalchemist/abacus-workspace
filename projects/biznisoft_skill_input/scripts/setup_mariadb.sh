@@ -52,7 +52,11 @@ else
         echo "[OK] MariaDB je već aktivan."
     else
         echo "[INFO] Non-systemd okruženje — koristim mysqld_safe..."
-        sudo mysqld_safe --defaults-extra-file=/etc/mysql/mariadb.conf.d/99-biznisoft-performance.cnf &
+        if [ -f /etc/mysql/mariadb.conf.d/99-biznisoft-performance.cnf ]; then
+            sudo mysqld_safe --defaults-extra-file=/etc/mysql/mariadb.conf.d/99-biznisoft-performance.cnf &
+        else
+            sudo mysqld_safe &
+        fi
         sleep 3
 
         # Čekaj da server bude spreman (max 30 sekundi)

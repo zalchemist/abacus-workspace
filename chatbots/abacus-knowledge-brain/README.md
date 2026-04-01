@@ -2,7 +2,7 @@
 
 ## Osnovne informacije
 - **Deployment ID:** 1127df3f3a
-- **Deployment Token:** 3f07cef6548d4c1c99925bb65c41a239
+- **Deployment Token:** `<SET_VIA_SECRET_MANAGER>`
 - **Model:** Claude V4.5 Sonnet
 - **Document Retriever ID:** 1088ad145a
 - **Status:** Active
@@ -21,7 +21,7 @@ Ekspert za:
 ## Primer korišćenja
 ```python
 response = client.get_chat_response(
-    deployment_token='3f07cef6548d4c1c99925bb65c41a239',
+    deployment_token=os.environ["ABACUS_KB_DEPLOYMENT_TOKEN"],
     deployment_id='1127df3f3a',
     messages=[{
         'is_user': True,

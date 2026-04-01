@@ -111,7 +111,7 @@ Kreiraj agent skill za autonomnu analizu BizniSoft ERP baza podataka.
 
 - Dump fajlovi se čuvaju u `/home/ubuntu/db_dumps/`
 - Knowledge ostaje u `/home/ubuntu/knowledge/`
-- Za import UVEK koristi `--force` flag (data truncation upozorenja)
+- Podrazumevano radi import bez `--force`; koristi `FORCE_IMPORT=1` samo kada je eksplicitno potrebno nastaviti uprkos SQL greškama
 - Ne upisuj broj redova u dokumentaciju (varira) - samo strukturu
 
 **Cilj:** Kreiraj skill koji će moći odmah da krene sa analizom čim dobije BizniSoft bazu, bez potrebe da ponovo otkriva arhitekturu i pravila.

@@ -33,7 +33,11 @@ echo "    Destinacija: $OUTPUT_DIR"
 # 1. Kreiranje output direktorijuma
 mkdir -p "$OUTPUT_DIR"
 
-# 2. Raspakivanje (overwrite bez pitanja)
+# 2. Raspakivanje uz osnovnu zaštitu od path traversal unosa.
+if unzip -Z1 "$ZIP_FILE" | rg -n '(^/|\.\.)' >/dev/null 2>&1; then
+    echo "[ERROR] ZIP sadrži potencijalno nebezbedne putanje (apsolutne ili '..')."
+    exit 1
+fi
 unzip -o "$ZIP_FILE" -d "$OUTPUT_DIR" 2>/dev/null
 
 # 3. Detekcija SQL dump fajlova
